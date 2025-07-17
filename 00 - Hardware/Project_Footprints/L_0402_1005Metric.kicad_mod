@@ -1,0 +1,209 @@
+(footprint "L_0402_1005Metric"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "inductor")
+	(property "Reference" "REF**"
+		(at 0 1.15 180)
+		(layer "F.SilkS")
+		(uuid "d5a87d8f-47b4-42c2-b586-bb19f54d45ef")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "3.3nH"
+		(at 0 1.17 180)
+		(layer "F.Fab")
+		(uuid "2a6b7478-75a0-4107-8d72-f039c7b0313e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "895842c6-636d-4d18-ab0a-12c94078019c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fbfad49-1775-46f4-b83f-856268e34df6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN1" "Johanson Technology"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b41a907-bc8d-400f-85ea-9930c0188c35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFR1" "L-07C3N3SV6T"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a7f57be-231f-4bd5-95c9-084cc24a2ffd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.93 -0.47)
+		(end 0.93 -0.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "65c0c84b-090a-46b9-a915-cc6d8ff0e12f")
+	)
+	(fp_line
+		(start -0.93 0.47)
+		(end -0.93 -0.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "84e9d64d-0092-46c4-9f65-8df76859ab7c")
+	)
+	(fp_line
+		(start 0.93 -0.47)
+		(end 0.93 0.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "be2691e5-a886-4c6a-9ed6-d4f06063a572")
+	)
+	(fp_line
+		(start 0.93 0.47)
+		(end -0.93 0.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bb8c8c6c-3ca3-4875-915e-4c2d84b8709c")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8e316a6-9d21-4957-8ff4-83db4197f3f1")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5d91953-627f-46f5-9a10-f7f9ae06b8fe")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "28136f8e-b0a3-4fa4-acec-317b5f87cde7")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "413911c1-2d5b-4942-aa10-f2db597269c4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "9b3bafe2-58c7-43be-8f3a-8802e1f065b6")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.485 0)
+		(size 0.59 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "312e3d87-5632-480d-847d-0fb2136fa159")
+	)
+	(pad "2" smd roundrect
+		(at 0.485 0)
+		(size 0.59 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "39670922-8c0b-42be-92de-ea635b8471c1")
+	)
+	(embedded_fonts no)
+	(model "${IBA_3DMODEL_DIR}/Inductors_SMD.3dshapes/L_0402_1005Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${IBA_3DMODEL_DIR}/Inductors_SMD.3dshapes/L_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

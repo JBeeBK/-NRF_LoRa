@@ -1,0 +1,201 @@
+(footprint "Crystal_SMD_2016-4Pin_2.0x1.6mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD2016/4, Crystal, 2.0x1.6mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.q-crystal.com/upload/5/2015552223166229.pdf")
+	(property "Reference" "REF**"
+		(at 0 -2.000001 180)
+		(layer "F.SilkS")
+		(uuid "cbd84302-0024-40d1-be82-4dd4d8f81e98")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Crystal"
+		(at 0 2.000001 180)
+		(layer "F.Fab")
+		(uuid "3f32dbbd-8382-4293-8b37-cf5ef4de704b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcd54b8a-3e7e-406c-80c8-2e1c4aad1f53")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Two pin crystal"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84796d97-3076-4706-b7bd-e061fdfe19b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "daadf643-67ad-438c-855e-65038beb2e7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39a70ce9-9cef-4b07-90f8-918bf8a73d97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN1" "XRCGB32M000F1SBJR0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79e17854-2ef7-4baa-a6eb-393e8b9f2f3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr1" "Murata"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc8eaea7-74c2-4dff-9154-ea8971a06b6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.41 -1.21)
+		(end -1.41 1.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6cf3c51e-d3dc-4a8f-80b8-c6f1e919f998")
+	)
+	(fp_line
+		(start -1.41 1.21)
+		(end 1.41 1.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a2820a5-44d8-433d-8249-16d3b8a8f4fe")
+	)
+	(fp_poly
+		(pts
+			(xy -1.5 -1.3) (xy 1.5 -1.3) (xy 1.5 1.3) (xy -1.5 1.3)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "401d5aea-1766-40af-ae55-b5e8b4d188bd")
+	)
+	(fp_poly
+		(pts
+			(xy -1 -0.8) (xy -1 0.4) (xy -0.6 0.799999) (xy 1 0.8) (xy 1 -0.8)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b4876819-14d4-43ed-beb2-e5f90ffe3181")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "e1ef98cb-a927-4077-b43a-3c22f9af7694")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.7 0.55)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "afdcb015-568b-47fd-a15e-3288f5bf8d3e")
+	)
+	(pad "2" smd roundrect
+		(at 0.7 0.55)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "98bd579a-eba3-4829-ba89-c7867362ed75")
+	)
+	(pad "3" smd roundrect
+		(at 0.7 -0.55)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "01a6bacf-df32-45c4-86e7-584366292560")
+	)
+	(pad "4" smd roundrect
+		(at -0.7 -0.55)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c0ff4e12-efeb-4028-8e7a-b0865d0c4341")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Project_Footprints/XRCGB32M000F1SBJR0-.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

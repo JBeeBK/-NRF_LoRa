@@ -1,0 +1,273 @@
+(footprint "SW_Push_1P1T_NO_CK_KMR2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CK components KMR2 tactile switch")
+	(tags "tactile switch kmr2")
+	(property "Reference" "REF**"
+		(at -4.7 0.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "200f5f20-33d9-49fa-91a2-61227d017645")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 2.55 0)
+		(layer "F.Fab")
+		(uuid "9fba6978-9cac-498b-b063-6cbf96e19d17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "${IBA_DATASHEET_DIR}/mechanical_parts/C&K_KMR2_Series_Microminiature_Top_Actuated.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78605017-607e-4003-9756-39f99e3be53e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "NO Push button switch, generic, 4 pins"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c33f3734-1c70-4df4-a856-e34c3088c09a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status" "Specific"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08564559-cb9c-484c-9c20-a1a67362208a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr1" "C&K"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ea66fc4-bb98-421a-8e09-e52af734d9a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN1" "KMR211NGLFS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "558d2e8b-5d39-480a-8169-f41d08ac0c90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.2 0.05)
+		(end -2.2 -0.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7fa85e61-4099-4424-8ba6-0534f3aaf795")
+	)
+	(fp_line
+		(start -2.2 1.55)
+		(end 2.2 1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7175e26d-58ef-4d97-944e-1aa7d7b62de5")
+	)
+	(fp_line
+		(start 2.2 -1.55)
+		(end -2.2 -1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9bb481b-d0b0-441e-9142-c500d6129d92")
+	)
+	(fp_line
+		(start 2.2 0.05)
+		(end 2.2 -0.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6851454-1cab-4260-98e9-dfcce4815788")
+	)
+	(fp_line
+		(start -2.8 -1.8)
+		(end 2.8 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "529804bb-2787-47c1-a1f6-21ad9ff7e491")
+	)
+	(fp_line
+		(start -2.8 1.8)
+		(end -2.8 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2dde2eeb-fd78-4ade-b78b-eebb50fc44b2")
+	)
+	(fp_line
+		(start 2.8 -1.8)
+		(end 2.8 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "82f508a4-7b49-451a-8215-68a7ea9eee75")
+	)
+	(fp_line
+		(start 2.8 1.8)
+		(end -2.8 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3f49baed-2480-419a-ac8b-ba76fd4f7407")
+	)
+	(fp_line
+		(start -2.1 -1.4)
+		(end 2.1 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56a5847b-0f2a-49f6-a63a-e846b2840c1d")
+	)
+	(fp_line
+		(start -2.1 1.4)
+		(end -2.1 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f301ca02-466d-42ed-809c-23f63afd91c3")
+	)
+	(fp_line
+		(start 2.1 -1.4)
+		(end 2.1 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "119b5331-76ef-4784-adca-e107f9a498b2")
+	)
+	(fp_line
+		(start 2.1 1.4)
+		(end -2.1 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "742ba56f-3f2a-43a1-b826-afa3d61da82e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7be5db17-472d-4dee-9346-1b6ea59e0b7b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.45 0)
+		(layer "F.Fab")
+		(uuid "605f04f6-3a39-4336-adc9-956a01d2ddc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.05 -0.8)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1090fd5f-fc41-4fa5-acfb-38802134dbe2")
+	)
+	(pad "2" smd rect
+		(at 2.05 0.8)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4adfdfb9-6617-4d46-bb28-805629963af5")
+	)
+	(pad "3" smd rect
+		(at -2.05 0.8)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fd1bdf06-aab1-4983-92de-f60683b57bf2")
+	)
+	(pad "4" smd rect
+		(at -2.05 -0.8)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b3bcce60-324b-49af-a712-dc2d1589ca0f")
+	)
+	(embedded_fonts no)
+	(model ":IBA_3DMODEL_DIR:Mechanical_parts_SMD.3dshapes/KMR211NGLFS.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

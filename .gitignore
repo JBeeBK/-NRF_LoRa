@@ -1,0 +1,15 @@
+# KiCad project temp/cache/lock files
+*.kicad_prl
+*.kicad_pro
+*.kicad_sch-bak
+*.lck
+fp-info-cache
+# Backup and auto-saved files
+LoRa_Project-backups/
+# Manufacturer-specific output folders
+jlcpcb/
+# Windows hidden/system files
+Thumbs.db
+.DS_Store
+output_pcb/
+output_assembly/

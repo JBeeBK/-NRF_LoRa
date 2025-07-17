@@ -1,0 +1,239 @@
+(footprint "LED_0805"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED 0805")
+	(tags "LED")
+	(property "Reference" "REF**"
+		(at -2.550001 0 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "14070ef3-712d-4b7d-93a3-f40d8eeda11e")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LED Yellow"
+		(at 0 1.65 0)
+		(layer "F.Fab")
+		(uuid "076a25cf-1795-4b79-9b45-75c4e020f28c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "${IBA_DATASHEET_DIR}/diodes/APTD2012LCGCK-1102037.pd"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17b19690-b96d-440a-9f9f-39c85862c714")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Light emitting diode Yellow 0805"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "321f59a4-0c5c-4bef-83d8-b179090b58e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr1" "Kingbright"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5dc2dd8-fd81-479f-afcd-79e5b79117a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN1" "AP2012SYCK"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3091b769-3ab7-4bd5-b8c5-1f540b6bae83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.684999 -0.96)
+		(end -1.684999 0.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e05ba22-7a86-48e7-a3e4-0ead415bcad4")
+	)
+	(fp_line
+		(start -1.684999 0.96)
+		(end 1 0.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b69dfe7f-1e52-4b36-bef7-8574459ddc1c")
+	)
+	(fp_line
+		(start 1 -0.96)
+		(end -1.684999 -0.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04d4969a-2569-4ff9-bf80-870a8c31c123")
+	)
+	(fp_line
+		(start -1.68 -0.95)
+		(end 1.68 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7e6b2c4b-81b6-4867-8e56-dfe38fa855e5")
+	)
+	(fp_line
+		(start -1.68 0.95)
+		(end -1.68 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "75c2839b-cc4c-4a24-816f-27e42c264712")
+	)
+	(fp_line
+		(start 1.68 -0.95)
+		(end 1.68 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8f8b9620-ee02-45f4-b9dc-d4f7b4c310d2")
+	)
+	(fp_line
+		(start 1.68 0.95)
+		(end -1.68 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e5cd678b-14d2-4aad-b1aa-5654a3a7a509")
+	)
+	(fp_line
+		(start -1 -0.3)
+		(end -1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2278e06a-e180-4f5e-8d84-21d5596708a7")
+	)
+	(fp_line
+		(start -1 0.6)
+		(end 1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05ae7c3a-d2cf-4938-b09e-ea2942f1e527")
+	)
+	(fp_line
+		(start -0.7 -0.6)
+		(end -1 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a922580f-8a11-4f47-8a47-0ba65ccf8e71")
+	)
+	(fp_line
+		(start 1 -0.6)
+		(end -0.7 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8b6c5fc-2826-45b4-8308-380fca38db24")
+	)
+	(fp_line
+		(start 1 0.6)
+		(end 1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16c19c4b-9e06-4937-a029-98d1f6e3abcd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2f567ca5-d902-4653-a9f3-f4f54534a8d3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.949999 0)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "bf27153a-e6ed-440c-a9be-c7f2f41cae2d")
+	)
+	(pad "2" smd roundrect
+		(at 0.949999 0)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "54e11625-72b0-4e23-acc6-322427593119")
+	)
+	(embedded_fonts no)
+	(model "${IBA_3DMODEL_DIR}/Diodes_SMD.3dshapes/LED_0603.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

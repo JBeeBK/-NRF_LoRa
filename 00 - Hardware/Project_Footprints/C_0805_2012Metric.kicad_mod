@@ -1,0 +1,269 @@
+(footprint "C_0805_2012Metric"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
+	(tags "capacitor")
+	(property "Reference" "REF**"
+		(at 0 -1.7 180)
+		(layer "F.SilkS")
+		(uuid "dedba817-56e2-4249-b9b7-3deb2be38f83")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "470pF"
+		(at 0 1.65 180)
+		(layer "F.Fab")
+		(uuid "e745b523-55a1-425a-8672-13e492f3b61f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\Ceramic_capacitors_SMD_C0G-NP0.zip"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0faa2697-8639-4388-8396-e92a2f460d20")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "470pF 0805, ceramic capacitor, 100V, NP0/C0G, 10%"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bb2d917-6225-4555-8376-7d6d412cd830")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status" "Preferred"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5dc5b9a6-161b-45a5-9e1f-9f4576fb8502")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr1" "AVX"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5182ef20-a309-4ee2-b608-f791b8f354d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN1" "08051A471KAT2A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f290582c-93e0-4652-a13a-43cc29b84c3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr2" "KEMET"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc68c499-2652-4b3c-8fa5-01743bab6146")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN2" "C0805C471J1GACTU"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a062e368-7b5d-46be-bca2-aeef9f33db9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.258578 -0.71)
+		(end 0.258578 -0.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d78e6e63-77fd-4c88-981d-d3e1c8a04580")
+	)
+	(fp_line
+		(start -0.258578 0.71)
+		(end 0.258578 0.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54f45adb-7838-433a-a141-3e5e5752b6fd")
+	)
+	(fp_line
+		(start -1.68 -0.95)
+		(end 1.68 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "60a9ae99-8b1e-49f7-b3ba-3d682ad92774")
+	)
+	(fp_line
+		(start -1.68 0.95)
+		(end -1.68 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fed6fdff-d6a3-49fe-a1ce-dc24b3e653e6")
+	)
+	(fp_line
+		(start 1.68 -0.95)
+		(end 1.68 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24169f50-96c6-4522-8ecb-d034eaaf6ac7")
+	)
+	(fp_line
+		(start 1.68 0.95)
+		(end -1.68 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "49aa7c3f-284a-4efb-a48e-1ede61638253")
+	)
+	(fp_line
+		(start -1 -0.6)
+		(end 1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0708a4e9-2426-4899-9186-443418244d17")
+	)
+	(fp_line
+		(start -1 0.6)
+		(end -1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bca41ee6-570c-4bc1-99f2-7cef2fe73664")
+	)
+	(fp_line
+		(start 1 -0.6)
+		(end 1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16370a80-0fd2-4be0-89e4-beb363608aac")
+	)
+	(fp_line
+		(start 1 0.6)
+		(end -1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "77073830-720c-489a-94f1-ee317894e5c5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "e90f6211-83d9-4f60-aae2-1b7667425cbe")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.9375 0)
+		(size 0.975 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b54fd61f-f147-43e6-a4aa-5b624112192f")
+	)
+	(pad "2" smd roundrect
+		(at 0.9375 0)
+		(size 0.975 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "24103839-71a7-4715-a3ca-1cfb42d1f4ca")
+	)
+	(embedded_fonts no)
+	(model "${IBA_3DMODEL_DIR}/Capacitors_SMD.3dshapes/C_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${IBA_3DMODEL_DIR}/Capacitors_SMD.3dshapes/C_0805_2012Metric.wrl"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

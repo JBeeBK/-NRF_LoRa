@@ -1,0 +1,269 @@
+(footprint "L_0805_2012Metric"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
+	(tags "inductor")
+	(property "Reference" "REF**"
+		(at 0 2.6 270)
+		(layer "F.SilkS")
+		(uuid "9ccb5af6-7e27-411f-acad-19bd8892353a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "L_jumper_0R"
+		(at 0 1.65 180)
+		(layer "F.Fab")
+		(uuid "86b6d0df-c6bf-46da-9039-fa111ff0fd3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "${IBA_DATASHEET_DIR}\\resistors\\Standard_Thick_Film_SMD_resistors.zip"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7cb2c152-8261-48d3-8d44-9985d67dd6fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductor, jumper 0R"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "169ce8d4-b143-473e-9809-ff9c419f15e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status" "Preferred"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2ac76af-228a-4bc6-8cce-c46f10555093")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr1" "Vishay"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2c2d70d-8fb3-4677-8755-bb449543b165")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN1" "CRCW08050000Z0EA"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25c5742c-dea6-4ca8-a44c-4283dc861929")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr2" "Yageo"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "487a8b01-67ba-4847-b2c7-b6976c9cf540")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN2" "RC0805FR-070RL"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a99e116-f2f7-4807-ab68-615134683a8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.258578 -0.71)
+		(end 0.258578 -0.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8561a790-d770-43cc-9a8b-383d8e3cf8b6")
+	)
+	(fp_line
+		(start -0.258578 0.71)
+		(end 0.258578 0.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "012c2684-5b9a-44bb-8a65-65996bd50799")
+	)
+	(fp_line
+		(start -1.68 -0.95)
+		(end 1.68 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "988d18f4-b2c0-4c8a-a79c-7ce218fc8920")
+	)
+	(fp_line
+		(start -1.68 0.95)
+		(end -1.68 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d63a6289-0274-48ec-a2e0-376494f33e1e")
+	)
+	(fp_line
+		(start 1.68 -0.95)
+		(end 1.68 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c9a86d1-cdd1-47f4-ae5b-ca774516d24d")
+	)
+	(fp_line
+		(start 1.68 0.95)
+		(end -1.68 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c536fde-0b57-457a-8643-a7ea0bd82a50")
+	)
+	(fp_line
+		(start -1 -0.6)
+		(end 1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca0454ae-51d7-4c58-b527-2a9296508d4e")
+	)
+	(fp_line
+		(start -1 0.6)
+		(end -1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "41ecd8e7-e895-49dd-92fa-86b0fd580a92")
+	)
+	(fp_line
+		(start 1 -0.6)
+		(end 1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06b25c93-803b-42a3-b11b-a93ca766a2d3")
+	)
+	(fp_line
+		(start 1 0.6)
+		(end -1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b10f04aa-fc44-4395-97bd-19b7e434660f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "b0408f31-3f5e-4826-abbc-2a760aa74e7c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.937501 0)
+		(size 0.975 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "06ff03c1-ddbc-4dfd-b834-e1297fe4a214")
+	)
+	(pad "2" smd roundrect
+		(at 0.937501 0)
+		(size 0.975 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "566a9bf3-c106-4840-bfdb-3e8b3de0dc62")
+	)
+	(embedded_fonts no)
+	(model "${IBA_3DMODEL_DIR}/Inductors_SMD.3dshapes/L_0805_2012Metric.wrl"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${IBA_3DMODEL_DIR}/Inductors_SMD.3dshapes/L_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

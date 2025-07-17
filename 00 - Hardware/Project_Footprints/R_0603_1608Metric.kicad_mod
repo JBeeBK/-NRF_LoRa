@@ -1,0 +1,257 @@
+(footprint "R_0603_1608Metric"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "resistor")
+	(property "Reference" "REF**"
+		(at -2.825 0 0)
+		(layer "F.SilkS")
+		(uuid "baea19d5-6f16-4fcf-980b-2a2e266077b5")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "270R_0603"
+		(at 0 1.43 0)
+		(layer "F.Fab")
+		(uuid "4ce31b77-9a09-4c09-b14f-b1ed0401e540")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "${IBA_DATASHEET_DIR}\\resistors\\Panasonic_Resistors_Thick_Film_Anti_Sulf_Anti_Surg-1825099.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63e5a988-340d-4560-890d-179938b2a7a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Resistor 270R, 0603, 1%, 150V, 250mW, Thick Film"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c347faf-6909-49f5-aef7-cceac5de3b82")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status" "Preferred"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c715c7e-ae8f-4a0a-8da8-bbec5d3b5da9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr1" "Panasonic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7422888c-2511-4d18-9bf4-fdbbc76005af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN1" "ERJ-UP3F2700V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afb6200d-9eea-429b-bd7c-14c2564d6af6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr2" "Panasonic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2faf7c6-08b2-417b-872b-b5094e7374fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN2" "ERJ-PA3F2700V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94969f1f-e8da-4bc3-adaa-0e4088104f67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.237258 -0.5225)
+		(end 0.237258 -0.5225)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c042730a-30e9-42e4-9a03-f17971ad06a8")
+	)
+	(fp_line
+		(start -0.237258 0.5225)
+		(end 0.237258 0.5225)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4bb920e3-187e-45be-b463-41f16aa0a4df")
+	)
+	(fp_line
+		(start -1.48 -0.73)
+		(end 1.48 -0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8bdd4b4d-3260-46e7-a7ed-c764e432d819")
+	)
+	(fp_line
+		(start -1.48 0.73)
+		(end -1.48 -0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c66de1c0-921e-4f07-9317-a28a873b8393")
+	)
+	(fp_line
+		(start 1.48 -0.73)
+		(end 1.48 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a952d3d6-4590-449d-abe2-baa8add2d2df")
+	)
+	(fp_line
+		(start 1.48 0.73)
+		(end -1.48 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c3398cf8-0fcf-4e66-a8c0-9310e7dee752")
+	)
+	(fp_line
+		(start -0.8 -0.4125)
+		(end 0.8 -0.4125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0d21494-4ff2-489a-b0d5-54b01533413e")
+	)
+	(fp_line
+		(start -0.8 0.4125)
+		(end -0.8 -0.4125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "056e0ad9-d34a-4646-9ca3-7cc7f1c95308")
+	)
+	(fp_line
+		(start 0.8 -0.4125)
+		(end 0.8 0.4125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c7b71c6-9b26-4325-995b-08df31c78614")
+	)
+	(fp_line
+		(start 0.8 0.4125)
+		(end -0.8 0.4125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17ef54ba-93dd-4ae9-8e9e-a9e11f96cc2c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6af7d38b-9514-4c77-8e6b-51199ec39d05")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.825 0)
+		(size 0.8 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4371ebdd-722b-4ef0-a96d-37d71cacbbb4")
+	)
+	(pad "2" smd roundrect
+		(at 0.825 0)
+		(size 0.8 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4970ad9e-881b-4019-9ac0-fbbc0d439c2a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

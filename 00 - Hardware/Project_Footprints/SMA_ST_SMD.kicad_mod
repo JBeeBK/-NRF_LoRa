@@ -1,0 +1,395 @@
+(footprint "SMA_ST_SMD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "coaxial connector SMA, straight, female, SMD, gold")
+	(tags "SMA")
+	(property "Reference" "REF**"
+		(at 12.8 2.1 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "59f9a458-aed8-4a12-8077-0890f68d06bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMA_ST_SMD"
+		(at 0 6.6 180)
+		(layer "F.Fab")
+		(uuid "431ee3fd-4a40-4e49-99d6-b353f932d37b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "${IBA_DATASHEET_DIR}/connectors/SMA_ST_SMD.zip"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60e3e775-d953-4ded-a24f-309598a01182")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "coaxial connector SMA, straight, female, SMD, gold"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00b7052f-7a6d-4d53-a760-d7ce76459089")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status" "Preferred"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c112474d-0c9e-4337-a60c-4e8a59b03afc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr1" "Linx Technologies"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a94d2321-0b34-414c-b25d-241bf1ef6a62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN1" "CONSMA001-SMD-G"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25fea679-d0a4-42a8-881f-562461b787da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr2" "Molex"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "865cac50-842b-4db3-ae46-f9ec1f6b58a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN2" "732511352"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa7bc86b-65be-49f2-94b6-a1f60b091500")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.1 -4.1)
+		(end 4.1 -4.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48708378-8595-4021-bd6d-489e3e805b74")
+	)
+	(fp_line
+		(start -4.1 4.1)
+		(end -4.1 -4.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "498ad5f2-777a-4291-9f9c-ab0e6d768b68")
+	)
+	(fp_line
+		(start 4.1 -4.1)
+		(end 4.1 4.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "505b078d-aa5e-4c5b-aee0-6e9e4666626b")
+	)
+	(fp_line
+		(start 4.1 4.1)
+		(end -4.1 4.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57af21b7-702f-4092-a892-23ef0eb00f51")
+	)
+	(fp_line
+		(start -4.191 -4.191)
+		(end -4.191 4.191)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21030afd-cf21-46df-9551-2adeb2d4d767")
+	)
+	(fp_line
+		(start -4.191 4.191)
+		(end 4.191 4.191)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d973741a-ee8c-45f4-a5cc-c13f377b4e35")
+	)
+	(fp_line
+		(start 4.191 -4.191)
+		(end -4.191 -4.191)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f590e766-45f4-4080-b001-c1f04c2912f0")
+	)
+	(fp_line
+		(start 4.191 4.191)
+		(end 4.191 -4.191)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "652ab7d4-a756-4c70-9e0a-5a5c81e53a63")
+	)
+	(fp_line
+		(start -3.5 -3.5)
+		(end 3.5 -3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b237e01-ccf8-418b-99e0-e09cf1f5a8b0")
+	)
+	(fp_line
+		(start -3.5 -2)
+		(end -2 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4a584d8-53f0-4ff0-8280-23a9cac2f16f")
+	)
+	(fp_line
+		(start -3.5 3.5)
+		(end -3.5 -3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "936ec97e-a19f-45fa-91cb-cae383e5a523")
+	)
+	(fp_line
+		(start -2 -2)
+		(end -2 -3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "64b18985-7848-4c2a-9af9-1cdc3bea845b")
+	)
+	(fp_line
+		(start -2 2)
+		(end -3.5 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4010a22d-31c6-4cc8-82ee-8d4fa90e0442")
+	)
+	(fp_line
+		(start -2 3.5)
+		(end -2 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11af2f75-24c8-4f4e-8f77-84bcccc37d81")
+	)
+	(fp_line
+		(start 2 -3.5)
+		(end 2 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "142c9650-045b-489b-b702-b550a3d66592")
+	)
+	(fp_line
+		(start 2 -2)
+		(end 3.5 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74aca6bb-93fe-4c69-bfce-936a1fb61f79")
+	)
+	(fp_line
+		(start 2 2)
+		(end 3.5 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "58e6c415-2a92-4a3c-9096-795efc801618")
+	)
+	(fp_line
+		(start 2 3.5)
+		(end 2 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34a36040-df72-4028-8a53-c1df746ed45f")
+	)
+	(fp_line
+		(start 3.5 -3.5)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "748b4203-914b-408c-bb60-2f4bd81774bb")
+	)
+	(fp_line
+		(start 3.5 3.5)
+		(end -3.5 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa9a70b8-292f-4faf-a3c8-ca51ee39adb8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "e11bb673-79e3-4419-8828-c3f428663210")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 2.05 2.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 1.2)
+		(uuid "c3829d42-1325-4934-86bc-937057daa09d")
+	)
+	(pad "2" smd custom
+		(at -3.08 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.8 3.68) (xy 1.64 3.68) (xy 1.64 1.7677) (xy 1.3027 1.4281) (xy 1.0207 0.9786) (xy 0.8502 0.476)
+					(xy 0.8 0) (xy 0.8502 -0.476) (xy 1.0207 -0.9786) (xy 1.3027 -1.4281) (xy 1.64 -1.7677) (xy 1.64 -3.68)
+					(xy -0.8 -3.68)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "040df76b-af68-45d1-b3a8-7ddf51cdf8f5")
+	)
+	(pad "2" smd custom
+		(at 3.08 0 180)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.8 3.68) (xy 1.64 3.68) (xy 1.64 1.7677) (xy 1.3027 1.4281) (xy 1.0207 0.9786) (xy 0.8502 0.476)
+					(xy 0.8 0) (xy 0.8502 -0.476) (xy 1.0207 -0.9786) (xy 1.3027 -1.4281) (xy 1.64 -1.7677) (xy 1.64 -3.68)
+					(xy -0.8 -3.68)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "cc1cd84b-b45c-4c33-a5b8-172802244027")
+	)
+	(embedded_fonts no)
+	(model "${IBA_3DMODEL_DIR}/Connectors_SMD.3dshapes/SMA_ST_SMD___Molex_732511352.stp"
+		(offset
+			(xyz 0 0 9.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 0)
+		)
+	)
+)
