@@ -8,6 +8,239 @@
 		(title "LoRa Hub")
 	)
 	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "IBA_mechanical_parts:MountingHole_Pad_M3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "MountingHole_Pad_M3"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "IBA_mechanical_parts_THT:MountingHole_3.2mm_M3_DIN965_Pad"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection, Pad M3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole M3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_M3_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_M3_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library:+3V3"
 			(power)
 			(pin_numbers
@@ -3671,90 +3904,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Library:MountingHole_M3"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_M3"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "IBA_mechanical_parts_THT:MountingHole_3.2mm_M3_DIN965_Pad"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_M3_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Library:PWR_FLAG"
 			(power)
 			(pin_numbers
@@ -5726,7 +5875,7 @@
 		)
 		(uuid e794e3b3-7d85-4198-8071-49a42e7a00e8)
 	)
-	(text "Battery Connection - JST"
+	(text "Battery Connection - JST PH 2mm"
 		(exclude_from_sim no)
 		(at 239.522 63.246 0)
 		(effects
@@ -5834,6 +5983,12 @@
 		(uuid "540786c0-7cf4-4d96-b355-043fb1f327f8")
 	)
 	(junction
+		(at 208.28 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5667f2e9-2532-4da5-be1d-57de699cca72")
+	)
+	(junction
 		(at 80.01 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5850,6 +6005,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8eee46b4-0ed2-4e75-8b4a-c74e19c65021")
+	)
+	(junction
+		(at 208.28 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be13a8b2-1f8a-434d-8735-da1da1b88145")
 	)
 	(junction
 		(at 142.24 104.14)
@@ -6031,7 +6192,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 43.18) (xy 135.89 43.18)
+			(xy 137.16 44.45) (xy 146.05 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6088,6 +6249,16 @@
 			(type default)
 		)
 		(uuid "228f2c03-517d-423a-a9f9-6a69e5577117")
+	)
+	(wire
+		(pts
+			(xy 208.28 148.59) (xy 208.28 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23fa8136-17fd-4823-9857-0069a70c5942")
 	)
 	(wire
 		(pts
@@ -6281,7 +6452,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 48.26) (xy 127 48.26)
+			(xy 146.05 49.53) (xy 137.16 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6341,6 +6512,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 156.21) (xy 208.28 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf03a98-cdd5-4ad0-9dda-c0c15495621f")
+	)
+	(wire
+		(pts
 			(xy 72.39 38.1) (xy 77.47 38.1)
 		)
 		(stroke
@@ -6388,6 +6569,16 @@
 			(type default)
 		)
 		(uuid "59f3128e-e78d-4f44-9ace-e9ec0b41297c")
+	)
+	(wire
+		(pts
+			(xy 208.28 156.21) (xy 226.06 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5efb784e-473f-407f-a932-d7ab751619a3")
 	)
 	(wire
 		(pts
@@ -6711,6 +6902,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 49.53) (xy 116.84 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96493c33-d896-4443-a3bd-c4dd173734a1")
+	)
+	(wire
+		(pts
 			(xy 46.99 38.1) (xy 64.77 38.1)
 		)
 		(stroke
@@ -6731,7 +6932,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 25.4) (xy 116.84 35.56)
+			(xy 127 26.67) (xy 127 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6741,7 +6942,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 55.88) (xy 116.84 60.96)
+			(xy 127 57.15) (xy 127 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6791,6 +6992,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 156.21) (xy 208.28 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a023fbca-0d50-42ca-9f29-6e30af28adb8")
+	)
+	(wire
+		(pts
 			(xy 198.12 95.25) (xy 177.8 95.25)
 		)
 		(stroke
@@ -6801,7 +7012,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 43.18) (xy 97.79 43.18)
+			(xy 90.17 44.45) (xy 102.87 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6861,6 +7072,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 148.59) (xy 208.28 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9aea44d-df4a-4864-85f8-23b1848ad89c")
+	)
+	(wire
+		(pts
 			(xy 83.82 104.14) (xy 88.9 104.14)
 		)
 		(stroke
@@ -6868,6 +7089,16 @@
 			(type default)
 		)
 		(uuid "be442764-d4f4-4275-928d-e38b5840cf8e")
+	)
+	(wire
+		(pts
+			(xy 208.28 148.59) (xy 226.06 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0762f1b-94aa-401c-894f-2a31f33b3a71")
 	)
 	(wire
 		(pts
@@ -7001,6 +7232,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 44.45) (xy 116.84 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed4f6b96-9d5d-4054-a536-6c0c01d0af35")
+	)
+	(wire
+		(pts
 			(xy 80.01 113.03) (xy 80.01 114.3)
 		)
 		(stroke
@@ -7011,7 +7252,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 48.26) (xy 106.68 48.26)
+			(xy 90.17 49.53) (xy 102.87 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7080,7 +7321,7 @@
 		(uuid "ff43f202-77de-4ab0-9edc-f222d106fd28")
 	)
 	(label "USB_D+"
-		(at 97.79 43.18 0)
+		(at 90.17 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7120,7 +7361,7 @@
 		(uuid "85cd5de9-e01f-4fdd-bd81-af4857087bbb")
 	)
 	(label "USB_D-"
-		(at 97.79 48.26 0)
+		(at 90.17 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7129,9 +7370,29 @@
 		)
 		(uuid "9d4f7bff-8263-4b95-bcc2-c738e734c5b1")
 	)
+	(label "D_P"
+		(at 111.76 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a293520d-7731-45ed-b0e4-e1517616161b")
+	)
+	(label "D_N"
+		(at 111.76 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2589d75-6882-4bd3-949b-c1e921702e5e")
+	)
 	(global_label "D+"
 		(shape input)
-		(at 135.89 43.18 0)
+		(at 146.05 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7141,7 +7402,7 @@
 		)
 		(uuid "12eb6346-e71f-4678-829d-84a9a99b7315")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.7176 43.18 0)
+			(at 151.8776 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7197,7 +7458,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 135.89 48.26 0)
+		(at 146.05 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7207,7 +7468,7 @@
 		)
 		(uuid "8c93aa68-ab43-4c73-ae61-81b8487c10fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.7176 48.26 0)
+			(at 151.8776 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7452,7 +7713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\Ceramic_capacitors_SMD_X7R.zip"
+		(property "Datasheet" ""
 			(at 166.37 33.02 0)
 			(effects
 				(font
@@ -7515,6 +7776,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 166.37 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 166.37 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 166.37 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c795a11-58de-498a-8dea-a871a77a33c4")
 		)
@@ -7564,7 +7852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\resistors\\Standard_Thick_Film_SMD_resistors.zip"
+		(property "Datasheet" ""
 			(at 49.53 109.22 0)
 			(effects
 				(font
@@ -7651,6 +7939,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 34.29 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 34.29 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 34.29 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4da59771-df40-4f1e-aa91-2a09ba4606c8")
 		)
@@ -7700,7 +8015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\resistors\\Panasonic_Anti-Sulfurated, Anti_Surge Thick Film Chip Resistors.zip"
+		(property "Datasheet" ""
 			(at 214.63 40.64 0)
 			(effects
 				(font
@@ -7756,6 +8071,33 @@
 		)
 		(property "MPN2" "ERJ-UP3F1001V"
 			(at 214.63 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 214.63 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 214.63 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 214.63 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7882,7 +8224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\Ceramic_capacitors_SMD_X7R.zip"
+		(property "Datasheet" ""
 			(at 146.05 124.46 0)
 			(effects
 				(font
@@ -7951,6 +8293,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 142.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 142.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 142.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f3317d6-6ebc-4328-96df-cda21a4f12eb")
 		)
@@ -8002,7 +8371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}/diodes/APTD2012LSURCK-1101937.pdf"
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APTD2012LSURCK.pdf"
 			(at 118.11 173.99 90)
 			(effects
 				(font
@@ -8031,6 +8400,33 @@
 		)
 		(property "MPN1" "APTD2012LSURCK"
 			(at 128.27 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 118.11 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 118.11 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 118.11 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8287,7 +8683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}/diodes/APTD2012LCGCK-1102037.pdf"
+		(property "Datasheet" ""
 			(at 220.98 34.29 90)
 			(effects
 				(font
@@ -8316,6 +8712,33 @@
 		)
 		(property "MPN1" "APTD2012LCGCK"
 			(at 231.14 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 220.98 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 220.98 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 220.98 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8406,7 +8829,7 @@
 	)
 	(symbol
 		(lib_id "Library:GND")
-		(at 116.84 60.96 0)
+		(at 127 62.23 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8415,7 +8838,7 @@
 		(dnp no)
 		(uuid "34c918cb-1782-4a58-85ec-0d094256dfaa")
 		(property "Reference" "#PWR015"
-			(at 116.84 67.31 0)
+			(at 127 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8424,7 +8847,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 66.04 0)
+			(at 127 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8432,7 +8855,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 60.96 0)
+			(at 127 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8441,7 +8864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 60.96 0)
+			(at 127 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8450,7 +8873,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 60.96 0)
+			(at 127 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,7 +8895,7 @@
 	)
 	(symbol
 		(lib_id "Library:USBLC6-2SC6")
-		(at 116.84 45.72 0)
+		(at 127 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8481,7 +8904,7 @@
 		(fields_autoplaced yes)
 		(uuid "34f23cac-4fc3-447b-841a-c83062ddc855")
 		(property "Reference" "U3"
-			(at 118.9833 33.02 0)
+			(at 129.1433 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8490,7 +8913,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 118.9833 35.56 0)
+			(at 129.1433 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8499,7 +8922,7 @@
 			)
 		)
 		(property "Footprint" "Project_Footprints:SOT-23-6"
-			(at 116.84 45.72 0)
+			(at 127 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8508,8 +8931,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}/power_protection/usblc6-2.pdf"
-			(at 135.89 40.64 0)
+		(property "Datasheet" ""
+			(at 146.05 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8519,7 +8942,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection of high speed interfaces -5.25VRM 17VCL SOT23-6 2 channel"
-			(at 116.84 45.72 0)
+			(at 127 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8528,7 +8951,7 @@
 			)
 		)
 		(property "Status" "Specific"
-			(at 135.89 43.18 0)
+			(at 146.05 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8538,7 +8961,7 @@
 			)
 		)
 		(property "Mfr1" "STMicroelectronics"
-			(at 135.89 45.72 0)
+			(at 146.05 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8548,7 +8971,7 @@
 			)
 		)
 		(property "MPN1" "USBLC6-2SC6"
-			(at 135.89 48.26 0)
+			(at 146.05 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8558,7 +8981,7 @@
 			)
 		)
 		(property "Mfr2" "---"
-			(at 135.89 50.8 0)
+			(at 146.05 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8568,12 +8991,39 @@
 			)
 		)
 		(property "MPN2" "---"
-			(at 135.89 53.34 0)
+			(at 146.05 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 127 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 127 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 127 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8808,6 +9258,33 @@
 			)
 		)
 		(property "MPN1" "USB4110-GF-A"
+			(at 31.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 31.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 31.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 31.75 45.72 0)
 			(effects
 				(font
@@ -9177,7 +9654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\Ceramic_capacitors_SMD_X7R.zip"
+		(property "Datasheet" ""
 			(at 177.8 102.87 0)
 			(effects
 				(font
@@ -9240,6 +9717,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 177.8 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 177.8 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 177.8 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "26606e4f-571f-46f3-a883-21fec51b1298")
 		)
@@ -9256,35 +9760,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:MountingHole_M3")
-		(at 210.82 149.86 90)
+		(lib_id "IBA_mechanical_parts:MountingHole_Pad_M3")
+		(at 187.96 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4dd1ece6-89fc-4ac1-b974-32b8f96e0b99")
-		(property "Reference" "H3"
-			(at 213.36 148.5899 90)
+		(uuid "54ad542f-db43-421b-bcf7-d013ca4ed0c0")
+		(property "Reference" "H2"
+			(at 181.61 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "MountingHole_M3"
-			(at 213.36 151.1299 90)
+		(property "Value" "MountingHole_Pad_M3"
+			(at 183.515 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Project_Footprints:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 214.63 149.86 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 179.07 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9293,7 +9795,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 149.86 0)
+			(at 187.96 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9301,19 +9803,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 210.82 149.86 0)
+		(property "Description" "Mounting Hole with connection, Pad M3"
+			(at 187.96 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "MANUFACTURER" ""
+			(at 187.96 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 187.96 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 187.96 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59609501-e1f3-499c-a8c3-3ea26a90063d")
 		)
 		(instances
 			(project "LoRa_Project"
 				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/4927cd72-e16a-43de-8cdd-cc75baf4e465"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -9380,70 +9912,6 @@
 			(project "LoRa_Project"
 				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/4927cd72-e16a-43de-8cdd-cc75baf4e465"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:MountingHole_M3")
-		(at 186.69 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56afcab8-0b61-4f16-8340-d7560c0f9164")
-		(property "Reference" "H1"
-			(at 189.23 148.5899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MountingHole_M3"
-			(at 189.23 151.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Project_Footprints:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 190.5 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 186.69 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "LoRa_Project"
-				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/4927cd72-e16a-43de-8cdd-cc75baf4e465"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -9551,7 +10019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\resistors\\Standard_Thick_Film_SMD_resistors.zip"
+		(property "Datasheet" ""
 			(at 60.96 19.05 0)
 			(effects
 				(font
@@ -9617,6 +10085,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 68.58 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 68.58 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 68.58 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9738,7 +10233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\resistors\\Panasonic_AOA0000C304.pdf"
+		(property "Datasheet" ""
 			(at 175.26 45.72 0)
 			(effects
 				(font
@@ -9801,6 +10296,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 175.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 175.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 175.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "94675dc7-1538-41c6-a5a8-5153a0b33fa3")
 		)
@@ -9811,70 +10333,6 @@
 			(project ""
 				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/4927cd72-e16a-43de-8cdd-cc75baf4e465"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:MountingHole_M3")
-		(at 210.82 156.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "602dce9d-7f6e-4f1e-a70e-0cd551a1c7a5")
-		(property "Reference" "H4"
-			(at 213.36 154.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MountingHole_M3"
-			(at 213.36 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Project_Footprints:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 214.63 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 210.82 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "LoRa_Project"
-				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/4927cd72-e16a-43de-8cdd-cc75baf4e465"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -9919,7 +10377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}/integrated_circuits/tps2116.pdf"
+		(property "Datasheet" ""
 			(at 36.83 124.46 0)
 			(effects
 				(font
@@ -9972,6 +10430,33 @@
 		)
 		(property "Reviewed" "28 Feb 2024"
 			(at 59.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 50.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 50.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 50.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10048,7 +10533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\Ceramic_capacitors_SMD_X7R.zip"
+		(property "Datasheet" ""
 			(at 88.9 114.3 0)
 			(effects
 				(font
@@ -10104,6 +10589,33 @@
 		)
 		(property "MPN2" "C0603C106M8PACTU"
 			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10362,7 +10874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\resistors\\Standard_Thick_Film_SMD_resistors.zip"
+		(property "Datasheet" ""
 			(at 130.81 154.94 0)
 			(effects
 				(font
@@ -10428,6 +10940,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 118.11 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 118.11 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 118.11 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10507,6 +11046,100 @@
 			(project "LoRa_Project"
 				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/4927cd72-e16a-43de-8cdd-cc75baf4e465"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72ef8e7e-e1ff-4885-b6e7-da51b04f2752")
+		(property "Reference" "R19"
+			(at 106.68 38.862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "27"
+			(at 106.68 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 106.68 46.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 106.68 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 106.68 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 106.68 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf6a91be-5fd8-4a98-b16b-b08eed945771")
+		)
+		(pin "2"
+			(uuid "01db51f2-3e40-4a43-9ead-180f91781253")
+		)
+		(instances
+			(project "LoRa_Project"
+				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/4927cd72-e16a-43de-8cdd-cc75baf4e465"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -10812,7 +11445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\resistors\\Standard_Thick_Film_SMD_resistors.zip"
+		(property "Datasheet" ""
 			(at 39.37 101.6 0)
 			(effects
 				(font
@@ -10896,6 +11529,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11084,6 +11744,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 83.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 83.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 83.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11354,6 +12041,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 200.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 200.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 200.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "4e8d2862-d46c-4a10-a942-c8e07e86674b")
 		)
@@ -11451,6 +12165,100 @@
 			(project "LoRa_Project"
 				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/4927cd72-e16a-43de-8cdd-cc75baf4e465"
 					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9729c6e5-a297-4923-9776-4c557ae08b7e")
+		(property "Reference" "R21"
+			(at 106.68 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "27"
+			(at 106.68 55.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 106.68 51.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 106.68 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 106.68 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 106.68 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9a1f3a7-95b3-4174-973a-1c0e18d206ef")
+		)
+		(pin "2"
+			(uuid "8e46b455-c839-45ef-ad3d-c53f02f92737")
+		)
+		(instances
+			(project "LoRa_Project"
+				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/4927cd72-e16a-43de-8cdd-cc75baf4e465"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -11559,7 +12367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}/diodes/APTD2012LSURCK-1101937.pdf"
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APTD2012LSURCK.pdf"
 			(at 104.14 173.99 90)
 			(effects
 				(font
@@ -11588,6 +12396,33 @@
 		)
 		(property "MPN1" "APTD2012LSURCK"
 			(at 114.3 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 104.14 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 104.14 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 104.14 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11647,7 +12482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}/diodes/APTD2012LSURCK-1101937.pdf"
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APTD2012LSURCK.pdf"
 			(at 133.35 173.99 90)
 			(effects
 				(font
@@ -11676,6 +12511,33 @@
 		)
 		(property "MPN1" "APTD2012LSURCK"
 			(at 143.51 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 133.35 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 133.35 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 133.35 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11734,7 +12596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\Ceramic_capacitors_SMD_X7R.zip"
+		(property "Datasheet" ""
 			(at 27.94 114.3 0)
 			(effects
 				(font
@@ -11790,6 +12652,33 @@
 		)
 		(property "MPN2" "C0603C106M8PACTU"
 			(at 27.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 27.94 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 27.94 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 27.94 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11919,6 +12808,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 129.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 129.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 129.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2159e25d-6008-41fa-b935-eaa5d7408cb3")
 		)
@@ -11968,7 +12884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\resistors\\Standard_Thick_Film_SMD_resistors.zip"
+		(property "Datasheet" ""
 			(at 133.35 163.83 0)
 			(effects
 				(font
@@ -12024,6 +12940,33 @@
 		)
 		(property "MPN2" "ERJ6ENF1001V"
 			(at 147.32 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 133.35 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 133.35 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 133.35 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12216,7 +13159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}/connectors/JST-eZE.pdf"
+		(property "Datasheet" ""
 			(at 256.54 27.94 0)
 			(effects
 				(font
@@ -12285,6 +13228,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 250.19 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 250.19 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 250.19 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9a5bc85d-fdcb-4c78-b542-4f4e4a5ce5e9")
 		)
@@ -12336,7 +13306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\Ceramic_capacitors_SMD_X7R.zip"
+		(property "Datasheet" ""
 			(at 19.05 114.3 0)
 			(effects
 				(font
@@ -12399,6 +13369,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 19.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 19.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 19.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e5ec0c37-53f8-483f-938c-54c650366c83")
 		)
@@ -12415,8 +13412,100 @@
 		)
 	)
 	(symbol
+		(lib_id "IBA_mechanical_parts:MountingHole_Pad_M3")
+		(at 228.6 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad39c383-af8c-48dc-8b27-4a9f7c65ed14")
+		(property "Reference" "H4"
+			(at 234.95 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad_M3"
+			(at 233.045 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 237.49 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection, Pad M3"
+			(at 228.6 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 228.6 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 228.6 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 228.6 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a06c360b-a6db-422c-a0a0-ff18a4d90ba7")
+		)
+		(instances
+			(project "LoRa_Project"
+				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/4927cd72-e16a-43de-8cdd-cc75baf4e465"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:VBUS")
-		(at 116.84 25.4 0)
+		(at 127 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12425,7 +13514,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae2d2f86-a617-41b8-aa35-ede95b68a816")
 		(property "Reference" "#PWR013"
-			(at 116.84 29.21 0)
+			(at 127 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12434,7 +13523,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 116.84 20.32 0)
+			(at 127 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12442,7 +13531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 25.4 0)
+			(at 127 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12451,7 +13540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 25.4 0)
+			(at 127 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12460,7 +13549,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 116.84 25.4 0)
+			(at 127 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12517,7 +13606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\Ceramic_capacitors_SMD_C0G-NP0.zip"
+		(property "Datasheet" ""
 			(at 127 114.3 0)
 			(effects
 				(font
@@ -12580,6 +13669,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9badc273-be08-499f-84be-82cf5907afab")
 		)
@@ -12632,7 +13748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\resistors\\Standard_Thick_Film_SMD_resistors.zip"
+		(property "Datasheet" ""
 			(at 80.01 109.22 0)
 			(effects
 				(font
@@ -12688,6 +13804,33 @@
 		)
 		(property "MPN2" "ERJ6ENF1002V"
 			(at 93.98 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 80.01 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12943,7 +14086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\resistors\\Standard_Thick_Film_SMD_resistors.zip"
+		(property "Datasheet" ""
 			(at 76.2 54.61 0)
 			(effects
 				(font
@@ -13012,6 +14155,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 68.58 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 68.58 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 68.58 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e8a7e53a-d72c-4fc5-a143-5d990ee12402")
 		)
@@ -13067,7 +14237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\10uF_50V_1210_X7R.zip"
+		(property "Datasheet" ""
 			(at 208.28 57.15 0)
 			(effects
 				(font
@@ -13156,6 +14326,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 233.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 233.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 233.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "62c5becb-4d2b-4b0d-a10c-354c8ad8e04d")
 		)
@@ -13166,70 +14363,6 @@
 			(project ""
 				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/4927cd72-e16a-43de-8cdd-cc75baf4e465"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:MountingHole_M3")
-		(at 186.69 156.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8a62649-a7a1-492b-9a45-fcc534740966")
-		(property "Reference" "H2"
-			(at 189.23 154.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MountingHole_M3"
-			(at 189.23 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Project_Footprints:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 190.5 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 186.69 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "LoRa_Project"
-				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/4927cd72-e16a-43de-8cdd-cc75baf4e465"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -13272,7 +14405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\Ceramic_capacitors_SMD_X7R.zip"
+		(property "Datasheet" ""
 			(at 101.6 124.46 0)
 			(effects
 				(font
@@ -13338,6 +14471,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 97.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 97.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 97.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13493,6 +14653,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf798d31-d07b-49d1-a20f-c790d6712cc3")
 		)
@@ -13512,6 +14699,98 @@
 			(project "LoRa_Project"
 				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/4927cd72-e16a-43de-8cdd-cc75baf4e465"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IBA_mechanical_parts:MountingHole_Pad_M3")
+		(at 228.6 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d51132a9-caad-4281-9558-a0567d7518ab")
+		(property "Reference" "H3"
+			(at 234.95 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad_M3"
+			(at 233.045 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 237.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection, Pad M3"
+			(at 228.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 228.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 228.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 228.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "529e8d70-ee57-4ad1-a7de-cd32e70c2a8f")
+		)
+		(instances
+			(project "LoRa_Project"
+				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/4927cd72-e16a-43de-8cdd-cc75baf4e465"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -13644,6 +14923,72 @@
 			(project "LoRa_Project"
 				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/4927cd72-e16a-43de-8cdd-cc75baf4e465"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:GND")
+		(at 208.28 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e22348d0-8ae1-40c2-afa0-1fbaf17dbd78")
+		(property "Reference" "#PWR051"
+			(at 208.28 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b179a0b-89f6-4fd4-b7ad-06145437873c")
+		)
+		(instances
+			(project "LoRa_Project"
+				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/4927cd72-e16a-43de-8cdd-cc75baf4e465"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -13987,6 +15332,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 196.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 196.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 196.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7c41e550-6650-454a-8d7a-525f036144d8")
 		)
@@ -14006,6 +15378,98 @@
 			(project "LoRa_Project"
 				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/4927cd72-e16a-43de-8cdd-cc75baf4e465"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IBA_mechanical_parts:MountingHole_Pad_M3")
+		(at 187.96 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc14ad50-7b38-4a0a-a28c-be0e799627c5")
+		(property "Reference" "H1"
+			(at 181.61 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad_M3"
+			(at 183.515 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 179.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection, Pad M3"
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1eabbe08-af9c-4eaa-8d57-4e65418d39e2")
+		)
+		(instances
+			(project ""
+				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/4927cd72-e16a-43de-8cdd-cc75baf4e465"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -14049,7 +15513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\resistors\\Standard_Thick_Film_SMD_resistors.zip"
+		(property "Datasheet" ""
 			(at 116.84 154.94 0)
 			(effects
 				(font
@@ -14115,6 +15579,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 104.14 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 104.14 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 104.14 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

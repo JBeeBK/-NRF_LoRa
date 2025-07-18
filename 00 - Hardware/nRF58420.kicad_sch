@@ -8,6 +8,175 @@
 		(title "LoRa Hub")
 	)
 	(lib_symbols
+		(symbol "IBA_resistors:0R_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0R_0603"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "IBA_resistors_SMD:R_0603_1608Metric"
+				(at -5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${IBA_DATASHEET_DIR}\\resistors\\Vishay_Thick_Film_Rectangular_Commodity_Chip_Resistors.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor 0R, 0603, 75V, 0.1W, Thick Film, 0R Jumper"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status" "Preferred"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr1" "Vishay / Dale"
+				(at 6.35 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN1" "CRCW06030000Z0EAC"
+				(at 8.89 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr2" "Panasonic"
+				(at 11.43 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN2" "ERJ-3GEY0R00V"
+				(at 13.97 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R 0R jumper"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0R_0603_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0R_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library:+3V3"
 			(power)
 			(pin_numbers
@@ -5316,8 +5485,8 @@
 		)
 	)
 	(rectangle
-		(start 177.8 13.97)
-		(end 283.21 95.25)
+		(start 163.83 13.97)
+		(end 283.21 101.6)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5329,7 +5498,7 @@
 	)
 	(text "LoRa Module"
 		(exclude_from_sim no)
-		(at 265.43 93.472 0)
+		(at 252.73 93.472 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5364,7 +5533,7 @@
 		(uuid "05d416be-f6a0-4ab7-9487-c98dd4796008")
 	)
 	(junction
-		(at 203.2 26.67)
+		(at 190.5 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06e0caae-68b9-4ae3-9ed8-a254dbdb00c8")
@@ -5424,7 +5593,7 @@
 		(uuid "92deece8-308f-4c1e-b92a-fed2e571e418")
 	)
 	(junction
-		(at 210.82 26.67)
+		(at 198.12 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9843d20c-185b-440a-954f-83239538fdcc")
@@ -5448,13 +5617,13 @@
 		(uuid "b8e55fed-af34-4934-8094-a04ee2d5123f")
 	)
 	(junction
-		(at 261.62 52.07)
+		(at 259.08 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c907396e-78f4-4509-832e-481ca9e1e9f9")
 	)
 	(junction
-		(at 243.84 52.07)
+		(at 241.3 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d70e4123-ec9c-4e6e-9a1d-9eab51edd167")
@@ -5476,7 +5645,7 @@
 		(uuid "29c7188d-78a3-4b31-a632-0cef4cf6ea4f")
 	)
 	(no_connect
-		(at 236.22 72.39)
+		(at 223.52 72.39)
 		(uuid "29ed8147-a59c-45df-951e-d0ee4f39259a")
 	)
 	(no_connect
@@ -5625,7 +5794,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 52.07) (xy 243.84 52.07)
+			(xy 233.68 52.07) (xy 241.3 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5635,7 +5804,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 26.67) (xy 203.2 27.94)
+			(xy 190.5 26.67) (xy 190.5 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5685,7 +5854,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 26.67) (xy 223.52 26.67)
+			(xy 198.12 26.67) (xy 210.82 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5765,7 +5934,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 77.47) (xy 223.52 85.09)
+			(xy 210.82 77.47) (xy 210.82 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5885,7 +6054,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 26.67) (xy 210.82 26.67)
+			(xy 190.5 26.67) (xy 198.12 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5895,7 +6064,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 52.07) (xy 248.92 52.07)
+			(xy 241.3 52.07) (xy 246.38 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5955,7 +6124,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 62.23) (xy 210.82 62.23)
+			(xy 184.15 62.23) (xy 198.12 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5985,7 +6154,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 72.39) (xy 210.82 72.39)
+			(xy 184.15 72.39) (xy 198.12 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5995,7 +6164,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 69.85) (xy 193.04 72.39)
+			(xy 180.34 69.85) (xy 180.34 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6085,6 +6254,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 52.07) (xy 226.06 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc5cab9-0b3e-4e62-a9f9-829bbbcfd626")
+	)
+	(wire
+		(pts
 			(xy 121.92 69.85) (xy 127 69.85)
 		)
 		(stroke
@@ -6105,7 +6284,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 26.67) (xy 210.82 27.94)
+			(xy 198.12 26.67) (xy 198.12 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6165,7 +6344,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 57.15) (xy 210.82 57.15)
+			(xy 184.15 57.15) (xy 198.12 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6195,7 +6374,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 35.56) (xy 210.82 38.1)
+			(xy 198.12 35.56) (xy 198.12 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6225,7 +6404,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 64.77) (xy 261.62 72.39)
+			(xy 259.08 64.77) (xy 259.08 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6265,7 +6444,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 57.15) (xy 261.62 52.07)
+			(xy 259.08 57.15) (xy 259.08 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6295,7 +6474,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 22.86) (xy 203.2 26.67)
+			(xy 190.5 22.86) (xy 190.5 26.67)
 		)
 		(stroke
 			(width 0)
@@ -6315,7 +6494,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 52.07) (xy 243.84 57.15)
+			(xy 241.3 52.07) (xy 241.3 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6325,7 +6504,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 26.67) (xy 223.52 46.99)
+			(xy 210.82 26.67) (xy 210.82 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6345,7 +6524,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 52.07) (xy 210.82 52.07)
+			(xy 184.15 52.07) (xy 198.12 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6385,7 +6564,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 52.07) (xy 269.24 52.07)
+			(xy 259.08 52.07) (xy 266.7 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6395,7 +6574,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 35.56) (xy 203.2 38.1)
+			(xy 190.5 35.56) (xy 190.5 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6435,7 +6614,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 57.15) (xy 274.32 72.39)
+			(xy 271.78 57.15) (xy 271.78 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6525,7 +6704,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 67.31) (xy 186.69 72.39)
+			(xy 173.99 67.31) (xy 173.99 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6535,7 +6714,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 64.77) (xy 210.82 64.77)
+			(xy 184.15 64.77) (xy 198.12 64.77)
 		)
 		(stroke
 			(width 0)
@@ -6545,7 +6724,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 54.61) (xy 210.82 54.61)
+			(xy 184.15 54.61) (xy 198.12 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6565,7 +6744,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 67.31) (xy 186.69 67.31)
+			(xy 198.12 67.31) (xy 173.99 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6585,7 +6764,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 64.77) (xy 243.84 72.39)
+			(xy 241.3 64.77) (xy 241.3 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6615,7 +6794,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 69.85) (xy 193.04 69.85)
+			(xy 198.12 69.85) (xy 180.34 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6625,7 +6804,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 52.07) (xy 256.54 52.07)
+			(xy 259.08 52.07) (xy 254 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6635,7 +6814,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 59.69) (xy 210.82 59.69)
+			(xy 184.15 59.69) (xy 198.12 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6784,7 +6963,7 @@
 		(uuid "073eafcb-dc29-4d7e-a036-c198f1cf8a6c")
 	)
 	(label "SPI_MOSI"
-		(at 196.85 57.15 0)
+		(at 184.15 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6834,7 +7013,7 @@
 		(uuid "5bfc2dc7-fc80-4c88-9ea6-d77f549e796e")
 	)
 	(label "LORA_IRQ"
-		(at 196.85 72.39 0)
+		(at 184.15 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6854,7 +7033,7 @@
 		(uuid "6e2dd6fc-e43f-4c0a-a762-7a7f59d1b8e6")
 	)
 	(label "LORA_BUSY"
-		(at 196.85 64.77 0)
+		(at 184.15 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6864,7 +7043,7 @@
 		(uuid "8a45eab8-63dc-49e2-935c-65a0ef997a9d")
 	)
 	(label "SPI_MISO"
-		(at 196.85 59.69 0)
+		(at 184.15 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6904,7 +7083,7 @@
 		(uuid "d5433491-7fcb-4e0e-aee8-6a8d7455710e")
 	)
 	(label "SPI_SCK"
-		(at 196.85 54.61 0)
+		(at 184.15 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6934,7 +7113,7 @@
 		(uuid "f02b85e4-595a-4d2c-ba69-3e366a5f98e3")
 	)
 	(label "LORA_SPI_CS"
-		(at 196.85 52.07 0)
+		(at 184.15 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6944,7 +7123,7 @@
 		(uuid "f6b4274c-3f56-4bf7-a837-8d9984278357")
 	)
 	(label "LORA_NRST"
-		(at 196.85 62.23 0)
+		(at 184.15 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7087,7 +7266,7 @@
 	)
 	(symbol
 		(lib_id "Library:SMA_ST_SMD")
-		(at 274.32 52.07 0)
+		(at 271.78 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7095,7 +7274,7 @@
 		(dnp no)
 		(uuid "000114b8-c1fc-42f2-9dcb-ba30e3420965")
 		(property "Reference" "J5"
-			(at 267.716 45.974 0)
+			(at 265.176 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7104,7 +7283,7 @@
 			)
 		)
 		(property "Value" "SMA_ST_SMD"
-			(at 267.716 48.514 0)
+			(at 265.176 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7113,7 +7292,7 @@
 			)
 		)
 		(property "Footprint" "Project_Footprints:SMA_ST_SMD"
-			(at 274.32 44.45 0)
+			(at 271.78 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,8 +7300,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}/connectors/SMA_ST_SMD.zip"
-			(at 274.32 52.07 0)
+		(property "Datasheet" ""
+			(at 271.78 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7131,7 +7310,7 @@
 			)
 		)
 		(property "Description" "coaxial connector SMA, straight, female, SMD, gold"
-			(at 274.32 52.07 0)
+			(at 271.78 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7140,7 +7319,7 @@
 			)
 		)
 		(property "Status" "Preferred"
-			(at 274.32 64.77 0)
+			(at 271.78 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7149,7 +7328,7 @@
 			)
 		)
 		(property "Mfr1" "Linx Technologies"
-			(at 274.32 67.31 0)
+			(at 271.78 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7158,7 +7337,7 @@
 			)
 		)
 		(property "MPN1" "CONSMA001-SMD-G"
-			(at 274.32 69.85 0)
+			(at 271.78 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,7 +7346,7 @@
 			)
 		)
 		(property "Mfr2" "Molex"
-			(at 274.32 72.39 0)
+			(at 271.78 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7176,7 +7355,34 @@
 			)
 		)
 		(property "MPN2" "732511352"
-			(at 274.32 74.93 0)
+			(at 271.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 271.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 271.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 271.78 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7302,7 +7508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\Ceramic_capacitors_SMD_X7R.zip"
+		(property "Datasheet" ""
 			(at 73.66 36.83 0)
 			(effects
 				(font
@@ -7365,6 +7571,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 73.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 73.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 73.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c5b84a3-c9d5-474c-b78f-b1aafb9e0259")
 		)
@@ -7382,7 +7615,7 @@
 	)
 	(symbol
 		(lib_id "Library:1uF_0805_25V_X7R")
-		(at 210.82 31.75 0)
+		(at 198.12 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7390,7 +7623,7 @@
 		(dnp no)
 		(uuid "04faa21a-72c7-4f34-84ed-01c43152850d")
 		(property "Reference" "C14"
-			(at 213.868 31.496 0)
+			(at 201.168 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7399,7 +7632,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 213.868 34.036 0)
+			(at 201.168 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7408,7 +7641,7 @@
 			)
 		)
 		(property "Footprint" "Project_Footprints:C_0805_2012Metric"
-			(at 214.63 39.37 0)
+			(at 201.93 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7417,8 +7650,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\Ceramic_capacitors_SMD_X7R.zip"
-			(at 214.63 41.91 0)
+		(property "Datasheet" ""
+			(at 201.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,7 +7661,7 @@
 			)
 		)
 		(property "Description" "1uF 0805, ceramic capacitor, 25V, X7R, 10%"
-			(at 210.82 31.75 0)
+			(at 198.12 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7437,7 +7670,7 @@
 			)
 		)
 		(property "Status" "Preferred"
-			(at 214.63 36.83 0)
+			(at 201.93 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7447,7 +7680,7 @@
 			)
 		)
 		(property "Mfr1" "AVX"
-			(at 214.63 44.45 0)
+			(at 201.93 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +7690,7 @@
 			)
 		)
 		(property "MPN1" "08053C105KAT2A"
-			(at 214.63 46.99 0)
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7467,7 +7700,7 @@
 			)
 		)
 		(property "Mfr2" "KEMET"
-			(at 214.63 49.53 0)
+			(at 201.93 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,12 +7710,39 @@
 			)
 		)
 		(property "MPN2" "C0805C105K3RACTU"
-			(at 214.63 52.07 0)
+			(at 201.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 198.12 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 198.12 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 198.12 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7639,6 +7899,33 @@
 			)
 		)
 		(property "Mfr1" "Johanson Technology"
+			(at 129.54 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 129.54 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 129.54 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 129.54 107.95 90)
 			(effects
 				(font
@@ -7832,7 +8119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\Inductors\\Murata_JELF243A_9139-1699565.pdf"
+		(property "Datasheet" ""
 			(at 98.044 52.832 0)
 			(effects
 				(font
@@ -7901,6 +8188,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 96.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 96.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 96.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88bb7d45-8da8-47d8-9849-a67ecd4ffc67")
 		)
@@ -7952,7 +8266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\Kyocera_cx5r_KGM.pdf"
+		(property "Datasheet" ""
 			(at 146.05 165.1 0)
 			(effects
 				(font
@@ -8015,6 +8329,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 146.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 146.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 146.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "509cea0e-348e-476f-abb6-37ea9b996746")
 		)
@@ -8067,7 +8408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\Ceramic_capacitors_SMD_X7R.zip"
+		(property "Datasheet" ""
 			(at 33.02 36.83 0)
 			(effects
 				(font
@@ -8130,6 +8471,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed82e84e-ba5a-4c9d-9fe7-d8c98268d812")
 		)
@@ -8147,7 +8515,7 @@
 	)
 	(symbol
 		(lib_id "Library:GND")
-		(at 243.84 72.39 0)
+		(at 241.3 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8156,7 +8524,7 @@
 		(fields_autoplaced yes)
 		(uuid "264b0036-2ec6-40f8-b7f0-8272d702b9ee")
 		(property "Reference" "#PWR064"
-			(at 243.84 78.74 0)
+			(at 241.3 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8165,7 +8533,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 77.47 0)
+			(at 241.3 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8173,7 +8541,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 72.39 0)
+			(at 241.3 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8182,7 +8550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 72.39 0)
+			(at 241.3 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8191,7 +8559,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 72.39 0)
+			(at 241.3 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8314,7 +8682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\Ceramic_capacitors_SMD_X7R.zip"
+		(property "Datasheet" ""
 			(at 20.32 36.83 0)
 			(effects
 				(font
@@ -8377,6 +8745,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 20.32 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 20.32 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 20.32 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "385bc62c-f71a-45c0-874a-bc3b401bdc08")
 		)
@@ -8428,7 +8823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}/capacitors/"
+		(property "Datasheet" ""
 			(at 127 85.09 0)
 			(effects
 				(font
@@ -8484,6 +8879,33 @@
 		)
 		(property "MPN2" "---"
 			(at 127 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 127 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 127 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 127 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8595,6 +9017,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 35.56 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 35.56 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 35.56 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3e774e7-5a32-4d94-8200-1eacb8e68a81")
 		)
@@ -8647,7 +9096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}/capacitors/KGM_X7R.pdf"
+		(property "Datasheet" ""
 			(at 140.97 109.22 0)
 			(effects
 				(font
@@ -8712,6 +9161,33 @@
 		)
 		(property "Reviewed" "29 Feb 2024"
 			(at 139.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 139.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8880,6 +9356,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 144.78 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 144.78 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 144.78 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b2b94778-5609-4188-bdc4-9bab5c9fa5d6")
 		)
@@ -8963,7 +9466,7 @@
 	)
 	(symbol
 		(lib_id "Library:100nF_0603_25V_X5R")
-		(at 203.2 31.75 0)
+		(at 190.5 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8971,7 +9474,7 @@
 		(dnp no)
 		(uuid "43257731-14f4-4b67-a1fb-abb2db7c9f77")
 		(property "Reference" "C13"
-			(at 195.326 31.75 0)
+			(at 182.626 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8980,7 +9483,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 195.326 34.29 0)
+			(at 182.626 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8989,7 +9492,7 @@
 			)
 		)
 		(property "Footprint" "Project_Footprints:C_0603_1608Metric"
-			(at 203.2 53.34 0)
+			(at 190.5 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8997,8 +9500,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\Kyocera_cx5r_KGM.pdf"
-			(at 203.2 31.75 0)
+		(property "Datasheet" ""
+			(at 190.5 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9007,7 +9510,7 @@
 			)
 		)
 		(property "Description" "100nF, 0603, ceramic capacitor, 25V, X5R, 10%"
-			(at 203.2 31.75 0)
+			(at 190.5 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9016,7 +9519,7 @@
 			)
 		)
 		(property "Status" "Specific"
-			(at 209.55 39.37 0)
+			(at 196.85 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9025,7 +9528,7 @@
 			)
 		)
 		(property "Mfr1" "Kyocera AVX"
-			(at 203.2 43.18 0)
+			(at 190.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9034,7 +9537,7 @@
 			)
 		)
 		(property "MPN1" "06033D104KAT2A"
-			(at 203.2 45.72 0)
+			(at 190.5 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9043,7 +9546,7 @@
 			)
 		)
 		(property "Mfr2" "---"
-			(at 203.2 48.26 0)
+			(at 190.5 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9052,7 +9555,34 @@
 			)
 		)
 		(property "MPN2" "---"
-			(at 203.2 50.8 0)
+			(at 190.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 190.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 190.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 190.5 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9112,7 +9642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\Kyocera_cx5r_KGM.pdf"
+		(property "Datasheet" ""
 			(at 153.67 85.09 0)
 			(effects
 				(font
@@ -9175,6 +9705,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 153.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 153.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 153.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a6f9ef7-434b-47ab-a8b9-903cc1b82dbb")
 		)
@@ -9192,7 +9749,7 @@
 	)
 	(symbol
 		(lib_id "Library:GND")
-		(at 210.82 38.1 0)
+		(at 198.12 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9201,7 +9758,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a6bb8d0-021f-421b-8c55-76bce359ccb7")
 		(property "Reference" "#PWR062"
-			(at 210.82 44.45 0)
+			(at 198.12 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9210,7 +9767,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 43.18 0)
+			(at 198.12 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9218,7 +9775,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 38.1 0)
+			(at 198.12 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9227,7 +9784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 38.1 0)
+			(at 198.12 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9236,7 +9793,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 38.1 0)
+			(at 198.12 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9338,6 +9895,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 135.89 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 135.89 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 135.89 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e98caa25-9526-4511-921b-73351a2d9cd0")
 		)
@@ -9348,6 +9932,145 @@
 			(project "LoRa_Project"
 				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/335821f6-2db5-4f15-b9a2-6034f999c194"
 					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IBA_resistors:0R_0603")
+		(at 229.87 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52c61ab1-c503-4a93-96dc-ca472faa721c")
+		(property "Reference" "R17"
+			(at 229.87 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R_0603"
+			(at 229.87 57.404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 229.87 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 0R, 0603, 75V, 0.1W, Thick Film, 0R Jumper"
+			(at 229.87 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Preferred"
+			(at 229.87 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr1" "Vishay / Dale"
+			(at 229.87 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "CRCW06030000Z0EAC"
+			(at 229.87 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr2" "Panasonic"
+			(at 229.87 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "ERJ-3GEY0R00V"
+			(at 229.87 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 229.87 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 229.87 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 229.87 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2b751e3-5f60-4688-9fc8-e6d84f8ba26a")
+		)
+		(pin "2"
+			(uuid "888ba1d9-3491-409f-9e41-7484865f4b45")
+		)
+		(instances
+			(project ""
+				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/335821f6-2db5-4f15-b9a2-6034f999c194"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -9421,7 +10144,7 @@
 	)
 	(symbol
 		(lib_id "Library:L_jumper_0R")
-		(at 252.73 52.07 90)
+		(at 250.19 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9430,7 +10153,7 @@
 		(fields_autoplaced yes)
 		(uuid "5aa6af8a-ca44-4e5c-92a1-e1c62952b3f2")
 		(property "Reference" "L1"
-			(at 252.73 46.99 90)
+			(at 250.19 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9438,7 +10161,7 @@
 			)
 		)
 		(property "Value" "L_jumper_0R"
-			(at 252.73 49.53 90)
+			(at 250.19 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9446,7 +10169,7 @@
 			)
 		)
 		(property "Footprint" "Project_Footprints:L_0805_2012Metric"
-			(at 252.73 55.88 90)
+			(at 250.19 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9454,8 +10177,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\resistors\\Standard_Thick_Film_SMD_resistors.zip"
-			(at 252.73 52.07 0)
+		(property "Datasheet" ""
+			(at 250.19 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9464,7 +10187,7 @@
 			)
 		)
 		(property "Description" "Inductor, jumper 0R"
-			(at 252.73 52.07 0)
+			(at 250.19 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9473,7 +10196,7 @@
 			)
 		)
 		(property "Status" "Preferred"
-			(at 252.73 46.99 90)
+			(at 250.19 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9482,7 +10205,7 @@
 			)
 		)
 		(property "Mfr1" "Vishay"
-			(at 252.73 44.45 90)
+			(at 250.19 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9491,7 +10214,7 @@
 			)
 		)
 		(property "MPN1" "CRCW08050000Z0EA"
-			(at 252.73 41.91 90)
+			(at 250.19 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9500,7 +10223,7 @@
 			)
 		)
 		(property "Mfr2" "Yageo"
-			(at 252.73 39.37 90)
+			(at 250.19 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9509,7 +10232,34 @@
 			)
 		)
 		(property "MPN2" "RC0805FR-070RL"
-			(at 252.73 36.83 90)
+			(at 250.19 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 250.19 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 250.19 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 250.19 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9571,7 +10321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" ""
 			(at 87.63 59.69 0)
 			(effects
 				(font
@@ -9651,6 +10401,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 87.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 87.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 87.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9737,7 +10514,7 @@
 	)
 	(symbol
 		(lib_id "Library:C_NP_0805")
-		(at 243.84 60.96 0)
+		(at 241.3 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9745,7 +10522,7 @@
 		(dnp no)
 		(uuid "5db5793b-cf3e-4a5b-b400-d1cba9e2da71")
 		(property "Reference" "C15"
-			(at 244.348 63.754 0)
+			(at 241.808 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9754,7 +10531,7 @@
 			)
 		)
 		(property "Value" "C_NP_0805"
-			(at 244.348 66.294 0)
+			(at 241.808 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9763,7 +10540,7 @@
 			)
 		)
 		(property "Footprint" "Project_Footprints:C_0805_2012Metric"
-			(at 243.84 82.55 0)
+			(at 241.3 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9772,7 +10549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 60.96 0)
+			(at 241.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9781,7 +10558,7 @@
 			)
 		)
 		(property "Description" "Capacitor NP, Not placed, 0805"
-			(at 243.84 60.96 0)
+			(at 241.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9790,7 +10567,7 @@
 			)
 		)
 		(property "Status" "Preferred"
-			(at 250.19 68.58 0)
+			(at 247.65 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9799,7 +10576,7 @@
 			)
 		)
 		(property "Mfr1" "---"
-			(at 243.84 72.39 0)
+			(at 241.3 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9808,7 +10585,7 @@
 			)
 		)
 		(property "MPN1" "---"
-			(at 243.84 74.93 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9817,7 +10594,7 @@
 			)
 		)
 		(property "Mfr2" "---"
-			(at 243.84 77.47 0)
+			(at 241.3 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9826,7 +10603,34 @@
 			)
 		)
 		(property "MPN2" "---"
-			(at 243.84 80.01 0)
+			(at 241.3 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 241.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 241.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 241.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9851,7 +10655,7 @@
 	)
 	(symbol
 		(lib_id "Library:E22-900M22S")
-		(at 223.52 62.23 0)
+		(at 210.82 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9860,7 +10664,7 @@
 		(fields_autoplaced yes)
 		(uuid "669d98e5-4f2d-4398-8b4b-9d2904aa0b6a")
 		(property "Reference" "IC2"
-			(at 225.4886 44.45 0)
+			(at 212.7886 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9869,7 +10673,7 @@
 			)
 		)
 		(property "Value" "E22-900M22S"
-			(at 225.4886 46.99 0)
+			(at 212.7886 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9878,7 +10682,7 @@
 			)
 		)
 		(property "Footprint" "Project_Footprints:E22-900M22S"
-			(at 223.52 62.23 0)
+			(at 210.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9888,7 +10692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 62.23 0)
+			(at 210.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9897,7 +10701,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 62.23 0)
+			(at 210.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9906,7 +10710,7 @@
 			)
 		)
 		(property "MF" "EBYTE"
-			(at 223.52 62.23 0)
+			(at 210.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9916,7 +10720,7 @@
 			)
 		)
 		(property "Description_1" "SX1262 868/915MHz SPI SMD LoRa Module"
-			(at 223.52 62.23 0)
+			(at 210.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9926,7 +10730,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 223.52 62.23 0)
+			(at 210.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9936,7 +10740,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 223.52 62.23 0)
+			(at 210.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9946,7 +10750,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/E22-900M22S/EBYTE/view-part/?ref=snap"
-			(at 223.52 62.23 0)
+			(at 210.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9956,7 +10760,7 @@
 			)
 		)
 		(property "MP" "E22-900M22S"
-			(at 223.52 62.23 0)
+			(at 210.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9966,7 +10770,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 223.52 62.23 0)
+			(at 210.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9976,7 +10780,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/E22-900M22S/EBYTE/view-part/?ref=eda"
-			(at 223.52 62.23 0)
+			(at 210.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9986,7 +10790,7 @@
 			)
 		)
 		(property "MPN1" "E22-900M22S"
-			(at 223.52 62.23 0)
+			(at 210.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9995,7 +10799,34 @@
 			)
 		)
 		(property "Mfr1" "Ebyte"
-			(at 223.52 62.23 0)
+			(at 210.82 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 210.82 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 210.82 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 210.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,7 +10977,7 @@
 	)
 	(symbol
 		(lib_id "Library:GND")
-		(at 193.04 72.39 0)
+		(at 180.34 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10155,7 +10986,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e8e664e-5990-469f-9638-40164c005317")
 		(property "Reference" "#PWR059"
-			(at 193.04 78.74 0)
+			(at 180.34 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10164,7 +10995,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 77.47 0)
+			(at 180.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10172,7 +11003,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 72.39 0)
+			(at 180.34 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10181,7 +11012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 72.39 0)
+			(at 180.34 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10190,7 +11021,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 72.39 0)
+			(at 180.34 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10247,7 +11078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\resistors\\Standard_Thick_Film_SMD_resistors.zip"
+		(property "Datasheet" ""
 			(at 30.48 100.33 0)
 			(effects
 				(font
@@ -10303,6 +11134,33 @@
 		)
 		(property "MPN2" "ERJ6ENF1001V"
 			(at 44.45 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 30.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 30.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 30.48 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10459,7 +11317,7 @@
 	)
 	(symbol
 		(lib_id "Library:+3V3")
-		(at 203.2 22.86 0)
+		(at 190.5 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10468,7 +11326,7 @@
 		(fields_autoplaced yes)
 		(uuid "8861827c-1a7a-40db-a0b6-6cf9a5c9e665")
 		(property "Reference" "#PWR060"
-			(at 203.2 26.67 0)
+			(at 190.5 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10477,7 +11335,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 203.2 17.78 0)
+			(at 190.5 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10485,7 +11343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 22.86 0)
+			(at 190.5 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10494,7 +11352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 22.86 0)
+			(at 190.5 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10503,7 +11361,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 203.2 22.86 0)
+			(at 190.5 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10525,7 +11383,7 @@
 	)
 	(symbol
 		(lib_id "Library:GND")
-		(at 186.69 72.39 0)
+		(at 173.99 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10534,7 +11392,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f2376ce-33f1-4a17-a8ad-91a167c38f0e")
 		(property "Reference" "#PWR058"
-			(at 186.69 78.74 0)
+			(at 173.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10543,7 +11401,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 77.47 0)
+			(at 173.99 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10551,7 +11409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 72.39 0)
+			(at 173.99 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10560,7 +11418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 72.39 0)
+			(at 173.99 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10569,7 +11427,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 72.39 0)
+			(at 173.99 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10591,7 +11449,7 @@
 	)
 	(symbol
 		(lib_id "Library:GND")
-		(at 203.2 38.1 0)
+		(at 190.5 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10600,7 +11458,7 @@
 		(fields_autoplaced yes)
 		(uuid "9395013d-803b-45ba-b301-ff7ff5cecd31")
 		(property "Reference" "#PWR061"
-			(at 203.2 44.45 0)
+			(at 190.5 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10609,7 +11467,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 43.18 0)
+			(at 190.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10617,7 +11475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 38.1 0)
+			(at 190.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10626,7 +11484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 38.1 0)
+			(at 190.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10635,7 +11493,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 38.1 0)
+			(at 190.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10692,7 +11550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}/mechanical_parts/C&K_KMR2_Series_Microminiature_Top_Actuated.pdf"
+		(property "Datasheet" ""
 			(at 136.144 153.67 0)
 			(effects
 				(font
@@ -10730,6 +11588,33 @@
 		)
 		(property "MPN1" "KMR211NGLFS"
 			(at 142.24 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 152.4 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 152.4 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 152.4 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10796,7 +11681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\Inductors\\Murata_JELF243A_9139-1699565.pdf"
+		(property "Datasheet" ""
 			(at 98.044 42.672 0)
 			(effects
 				(font
@@ -10865,6 +11750,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 96.52 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 96.52 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 96.52 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ed5ff22-1294-43c5-9c8b-ef18b1460704")
 		)
@@ -10882,7 +11794,7 @@
 	)
 	(symbol
 		(lib_id "Library:GND")
-		(at 274.32 72.39 0)
+		(at 271.78 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10891,7 +11803,7 @@
 		(fields_autoplaced yes)
 		(uuid "9bea39ee-c95e-4b04-b544-6285269848b1")
 		(property "Reference" "#PWR066"
-			(at 274.32 78.74 0)
+			(at 271.78 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10900,7 +11812,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 274.32 77.47 0)
+			(at 271.78 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10908,7 +11820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 72.39 0)
+			(at 271.78 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10917,7 +11829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 72.39 0)
+			(at 271.78 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10926,7 +11838,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 274.32 72.39 0)
+			(at 271.78 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10948,7 +11860,7 @@
 	)
 	(symbol
 		(lib_id "Library:GND")
-		(at 261.62 72.39 0)
+		(at 259.08 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10957,7 +11869,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2eddd00-5415-45ae-b7cc-e371007fbcfc")
 		(property "Reference" "#PWR065"
-			(at 261.62 78.74 0)
+			(at 259.08 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10966,7 +11878,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 77.47 0)
+			(at 259.08 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10974,7 +11886,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 72.39 0)
+			(at 259.08 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10983,7 +11895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 72.39 0)
+			(at 259.08 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10992,7 +11904,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 72.39 0)
+			(at 259.08 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11101,6 +12013,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 35.56 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 35.56 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 35.56 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e16eba63-66d3-48e1-b958-c741fd12123f")
 		)
@@ -11118,7 +12057,7 @@
 	)
 	(symbol
 		(lib_id "Library:GND")
-		(at 223.52 85.09 0)
+		(at 210.82 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11127,7 +12066,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6a9e415-16ad-4731-b513-43e2c84bd4c7")
 		(property "Reference" "#PWR063"
-			(at 223.52 91.44 0)
+			(at 210.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11136,7 +12075,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 90.17 0)
+			(at 210.82 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11144,7 +12083,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 85.09 0)
+			(at 210.82 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11153,7 +12092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 85.09 0)
+			(at 210.82 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11162,7 +12101,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 85.09 0)
+			(at 210.82 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11219,7 +12158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\Ceramic_capacitors_SMD_X7R.zip"
+		(property "Datasheet" ""
 			(at 45.72 36.83 0)
 			(effects
 				(font
@@ -11282,6 +12221,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 45.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 45.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 45.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14c1e360-7132-4afb-b027-01c4c42752f6")
 		)
@@ -11334,7 +12300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\Ceramic_capacitors_SMD_X7R.zip"
+		(property "Datasheet" ""
 			(at 59.69 36.83 0)
 			(effects
 				(font
@@ -11390,6 +12356,33 @@
 		)
 		(property "MPN2" "C0402C104K4RACTU"
 			(at 59.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 59.69 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 59.69 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 59.69 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11517,7 +12510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" ""
 			(at 107.95 55.88 0)
 			(effects
 				(font
@@ -11597,6 +12590,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 107.95 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 107.95 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 107.95 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11719,7 +12739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/611/johanson_2450AT18B100E-1215778.pdf"
 			(at 156.21 107.95 0)
 			(effects
 				(font
@@ -11728,106 +12748,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.4GHz - Chip RF Antenna 2.4GHz ~ 2.5GHz 0.5dBi Solder Surface Mount"
 			(at 156.21 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Johanson Technology"
-			(at 156.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.4 mm"
-			(at 156.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 156.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 156.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/2450AT18B100E/Johanson/view-part/?ref=eda"
-			(at 156.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendation"
-			(at 156.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "4.0"
-			(at 156.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/2450AT18B100E/Johanson/view-part/?ref=snap"
-			(at 156.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 156.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "2.4GHz - Chip RF Antenna 2.4GHz ~ 2.5GHz 0.5dBi Solder Surface Mount"
 			(at 156.21 107.95 0)
 			(effects
 				(font
@@ -11847,7 +12777,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Johanson Technology"
+		(property "MFR1" "Johanson Technology"
 			(at 156.21 107.95 0)
 			(effects
 				(font
@@ -11866,13 +12796,30 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "2450AT18B100E"
+		(property "MANUFACTURER" ""
 			(at 156.21 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 156.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 156.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11994,7 +12941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\resistors\\Standard_Thick_Film_SMD_resistors.zip"
+		(property "Datasheet" ""
 			(at 152.4 142.24 0)
 			(effects
 				(font
@@ -12050,6 +12997,33 @@
 		)
 		(property "MPN2" "ERJ6ENF1002V"
 			(at 166.37 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 152.4 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 152.4 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 152.4 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12137,6 +13111,33 @@
 			)
 		)
 		(property "Mfr1" "Nordic Semiconductor"
+			(at 93.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 93.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 93.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 93.98 107.95 0)
 			(effects
 				(font
@@ -12303,7 +13304,7 @@
 	)
 	(symbol
 		(lib_id "Library:C_NP_0805")
-		(at 261.62 60.96 0)
+		(at 259.08 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12311,7 +13312,7 @@
 		(dnp no)
 		(uuid "d241a0af-0f6b-49c7-bab9-fc5045907439")
 		(property "Reference" "C16"
-			(at 262.128 63.5 0)
+			(at 259.588 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12320,7 +13321,7 @@
 			)
 		)
 		(property "Value" "C_NP_0805"
-			(at 262.128 66.04 0)
+			(at 259.588 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12329,7 +13330,7 @@
 			)
 		)
 		(property "Footprint" "Project_Footprints:C_0805_2012Metric"
-			(at 261.62 82.55 0)
+			(at 259.08 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12338,7 +13339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 60.96 0)
+			(at 259.08 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12347,7 +13348,7 @@
 			)
 		)
 		(property "Description" "Capacitor NP, Not placed, 0805"
-			(at 261.62 60.96 0)
+			(at 259.08 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12356,7 +13357,7 @@
 			)
 		)
 		(property "Status" "Preferred"
-			(at 267.97 68.58 0)
+			(at 265.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12365,7 +13366,7 @@
 			)
 		)
 		(property "Mfr1" "---"
-			(at 261.62 72.39 0)
+			(at 259.08 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12374,7 +13375,7 @@
 			)
 		)
 		(property "MPN1" "---"
-			(at 261.62 74.93 0)
+			(at 259.08 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12383,7 +13384,7 @@
 			)
 		)
 		(property "Mfr2" "---"
-			(at 261.62 77.47 0)
+			(at 259.08 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12392,7 +13393,34 @@
 			)
 		)
 		(property "MPN2" "---"
-			(at 261.62 80.01 0)
+			(at 259.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 259.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 259.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 259.08 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12518,7 +13546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}\\capacitors\\KEM_X7R_Flex_auto.pdf"
+		(property "Datasheet" ""
 			(at 118.11 33.02 0)
 			(effects
 				(font
@@ -12581,6 +13609,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 118.11 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 118.11 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 118.11 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dd8f642c-5066-4d1b-bddb-6961356816ef")
 		)
@@ -12633,7 +13688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${IBA_DATASHEET_DIR}/diodes/APTD2012LCGCK-1102037.pdf"
+		(property "Datasheet" ""
 			(at 30.48 110.49 90)
 			(effects
 				(font
@@ -12662,6 +13717,33 @@
 		)
 		(property "MPN1" "APTD2012LCGCK"
 			(at 40.64 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 30.48 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 30.48 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 30.48 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12899,6 +13981,33 @@
 			)
 		)
 		(property "Mfr1" "Murata"
+			(at 46.99 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 46.99 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 46.99 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 46.99 64.77 90)
 			(effects
 				(font
