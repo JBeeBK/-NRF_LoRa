@@ -1,9 +1,20 @@
 # NRF_LoRa
 
-Custom PCB design based on the Nordic nRF52840 (QFN48) with an SX1262 LoRa module.
+PCB design for a Nordic nRF52840 (QFN48) with SX1262 LoRa module.  
+Designed as a low-power mesh node for experimentation and Meshtastic development.
 
-This board is intended as a low-power LoRa mesh node with optional peripherals, including a 0.96" I²C OLED, LiPo charging (MCP73831), fuel gauge (MAX17048), and a power multiplexer (TPS2116). USB-UART support is included via FT231XS.
+### Features
+- nRF52840 SoC (BLE, Cortex-M4F)
+- SX1262 LoRa (868 MHz) with SMA antenna
+- USB-C input with TPS2116 power multiplexer
+- MCP73831 LiPo charger and MAX17048 fuel gauge
+- Optional 0.96" I²C OLED for status output
+- FT231XS USB-UART bridge for programming
+- Compact 4-layer PCB (50 x 50 mm)
 
-The goal of this project is to learn and play with RF layout, MCU design, and board bring-up using modern wireless SoCs. 
+### Repository Structure
+- `hardware/` – KiCad source files (schematic, PCB, symbols, footprints)
+- `output_pcb/` – Gerbers, fabrication layer PDFs
+- `output_assembly/` – BOM, pick-and-place, schematic PDFs
 
-Done by JB
+This repo documents the hardware design; firmware will be added once the board is fabricated.
