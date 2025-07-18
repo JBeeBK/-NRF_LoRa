@@ -3,6 +3,9 @@
 PCB design for a Nordic nRF52840 (QFN48) with SX1262 LoRa module.  
 Designed as a low-power mesh node for experimentation and Meshtastic development.
 
+![Board Top](04_output_assembly/LoRa_Project.jpg)
+
+
 ### Features
 - nRF52840 SoC (BLE, Cortex-M4F)
 - SX1262 LoRa (868 MHz) with SMA antenna
@@ -18,3 +21,4 @@ Designed as a low-power mesh node for experimentation and Meshtastic development
 - `output_assembly/` – BOM, pick-and-place, schematic PDFs
 
 This repo documents the hardware design; firmware will be added once the board is fabricated.
+
