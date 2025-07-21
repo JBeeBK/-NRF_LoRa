@@ -5641,16 +5641,16 @@
 		(uuid "ec34847c-dc12-4cb7-91ae-10a10a48a94b")
 	)
 	(no_connect
+		(at 66.04 92.71)
+		(uuid "03ed6e39-5293-4663-aeed-e2c9bc044011")
+	)
+	(no_connect
 		(at 66.04 97.79)
-		(uuid "29c7188d-78a3-4b31-a632-0cef4cf6ea4f")
+		(uuid "206f6681-d1c3-4c4b-bbd6-9b4ea175c523")
 	)
 	(no_connect
 		(at 223.52 72.39)
 		(uuid "29ed8147-a59c-45df-951e-d0ee4f39259a")
-	)
-	(no_connect
-		(at 66.04 92.71)
-		(uuid "2c645ede-e099-4a1a-b08d-3809189e5b2e")
 	)
 	(no_connect
 		(at 125.73 135.89)
@@ -5675,14 +5675,6 @@
 	(no_connect
 		(at 66.04 148.59)
 		(uuid "8b010ee6-f8d6-44a0-8e40-b5421ce75b84")
-	)
-	(no_connect
-		(at 66.04 113.03)
-		(uuid "8ec206b1-e3d5-4f92-a99c-b70c6ed00f02")
-	)
-	(no_connect
-		(at 66.04 115.57)
-		(uuid "a430a59d-0330-4e8e-851f-c0e98c166472")
 	)
 	(no_connect
 		(at 66.04 82.55)
@@ -5991,6 +5983,16 @@
 			(type default)
 		)
 		(uuid "2ced9156-8a0e-4241-9bfa-35df1aa0693a")
+	)
+	(wire
+		(pts
+			(xy 62.23 115.57) (xy 66.04 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d7134d4-be43-40f3-8e9f-7cda5dc727fc")
 	)
 	(wire
 		(pts
@@ -6724,6 +6726,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 113.03) (xy 66.04 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d858264e-902e-4ed3-9027-eb3579d0450c")
+	)
+	(wire
+		(pts
 			(xy 184.15 54.61) (xy 198.12 54.61)
 		)
 		(stroke
@@ -7176,6 +7188,28 @@
 			)
 		)
 	)
+	(global_label "P0.05"
+		(shape bidirectional)
+		(at 62.23 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "415d9061-695a-4f3f-aabd-89d508395feb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.6302 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART_TXD"
 		(shape input)
 		(at 58.42 153.67 180)
@@ -7233,6 +7267,28 @@
 		(uuid "9810f6b6-3150-401d-b725-c34727a73558")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 49.1453 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P0.04"
+		(shape bidirectional)
+		(at 62.23 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4fd8b3b-9553-4211-96cd-dbbdd9b9ea78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.6302 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)

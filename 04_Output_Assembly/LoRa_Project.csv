@@ -1,59 +1,55 @@
-"Reference","Qty","Value","Footprint","Datasheet","Description","Mfr1","MPN1","Mfr2","MPN2","MFR1"
-"R14,R15","2","4k7","Project_Footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder","~","Resistor","Wurth","560112110245","","ERJ-S02F4701X","Wurth"
-"L4","1","3.3nH","Project_Footprints:L_0402_1005Metric","~","Inductor","Johanson Technology","L-07C3N3SV6T","","","L-07C3N3SV6T"
-"L5","1","2.7nH","Project_Footprints:L_0402_1005Metric","~","Inductor","Johanson Technology","L-07C2N7SV6T","","","Johanson Technology"
-"E1","1","2450AT18B100E","Project_Footprints:XDCR_2450AT18B100E","https://eu.mouser.com/datasheet/2/611/johanson_2450AT18B100E-1215778.pdf","2.4GHz - Chip RF Antenna 2.4GHz ~ 2.5GHz 0.5dBi Solder Surface Mount","","2450AT18B100E","","","Johanson Technology"
-"C30","1","1.2pF","Project_Footprints:C_0402_1005Metric","~","Unpolarized capacitor","Johanson Technology","500R07S1R2BV4T","",""," Johanson Technology"
-"Y1","1","Crystal","Project_Footprints:Crystal_SMD_2016-4Pin_2.0x1.6mm","~","Two pin crystal","Murata","XRCGB32M000F1SBJR0","","",""
-"U6","1","FT231XS","Project_Footprints:SSOP-20_3.9x8.7mm_P0.635mm","https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf","Full Speed USB to Full Handshake UART, SSOP-20","FTDI Chip","FT231XS","","",""
-"U5","1","nRF52840-QFAA","Project_Footprints:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm_ThermalVias","https://docs-be.nordicsemi.com/bundle/ps_nrf52840/attach/nRF52840_PS_v1.11.pdf?_LANG=enus","2.4GHz Bluetooth 5.4 USB NFC SoC, 64MHz Cortex-M4 FPU, CryptoCell, PDM, I2S, QSPI, QFN-48","Nordic Semiconductor","nRF52840-QFN","","",""
-"U4","1","MCP73831-2-OT","Project_Footprints:SOT-23-5","http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf","Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package","Micochip","MCP73831-2-OT","","",""
-"U3","1","USBLC6-2SC6","Project_Footprints:SOT-23-6","","Very low capacitance ESD protection of high speed interfaces -5.25VRM 17VCL SOT23-6 2 channel","STMicroelectronics","USBLC6-2SC6","---","---",""
-"U2","1","MIC5219-3.3YM5","Project_Footprints:SOT-23-5","http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf","500mA low dropout linear regulator, fixed 3.3V output, SOT-23-5","Microchip","MIC5219-3.3YM5-TR","","",""
-"U1","1","TPS2116DRLR","Project_Footprints:SOT-583-8","","1.6 V to 5.5 V, 2.5-A Low IQ Power Mux with Manual and Priority Switchover","Texas Instruments","TPS2116DRLR","","",""
-"TP5","1","3V3","Project_Footprints:TestPoint_Pad_D1.0mm","---","test point","---","---","---","---",""
-"TP4","1","V_SW","Project_Footprints:TestPoint_Pad_D1.0mm","---","test point","---","---","---","---",""
-"RST1","1","~","Project_Footprints:SW_Push_1P1T_NO_CK_KMR2","","NO Push button switch, generic, 4 pins","C&K","KMR211NGLFS","","",""
-"R19,R21","2","27","Resistor_SMD:R_0603_1608Metric","~","Resistor","","","","",""
-"R18","1","10K","Resistor_SMD:R_0603_1608Metric","~","Resistor","","","","",""
-"R17","1","0R_0603","Resistor_SMD:R_0603_1608Metric","","Resistor 0R, 0603, 75V, 0.1W, Thick Film, 0R Jumper","Vishay / Dale","CRCW06030000Z0EAC","Panasonic","ERJ-3GEY0R00V",""
-"R13","1","1K","Project_Footprints:R_0603_1608Metric","","Resistor 1K, 0603, 1%, 150V, Thick Film","Panasonic","ERJ-PA3F1001V","Panasonic","ERJ-UP3F1001V",""
-"R12","1","10K0_0603","Project_Footprints:R_0603_1608Metric","","Resistor 10K0, 0603, 1%, 75V, Thick Film, 100mW","Panasonic","ERJ-3EKF1002V","---","---",""
-"R11,R16","2","1K_0805","Project_Footprints:R_0805_2012Metric","","Resistor 1K, 0805, 1%, 150V, Thick Film","Vishay","CRCW08051K00FKEA","Panasonic","ERJ6ENF1001V",""
-"R9,R10","2","1K5_0805","Project_Footprints:R_0805_2012Metric","","Resistor 1K5, 0805, 1%, 150V, Thick Film","Vishay","CRCW08051K50FKEA","Panasonic","ERJ6ENF1501V",""
-"R7,R8","2","270R_0603","Project_Footprints:R_0603_1608Metric","","Resistor 270R, 0603, 1%, 150V, 250mW, Thick Film","Panasonic","ERJ-UP3F2700V","Panasonic","ERJ-PA3F2700V",""
-"R6","1","4k7","Resistor_SMD:R_0603_1608Metric","~","Resistor","","","","",""
-"R5,R20","2","10K","Project_Footprints:R_0805_2012Metric","","Resistor 10K, 0805, 1%, 150V, Thick Film","Vishay","CRCW080510K0FKEA","Panasonic","ERJ6ENF1002V",""
-"R3,R4","2","5K1_0805","Project_Footprints:R_0805_2012Metric","","Resistor 5K1, 0805, 1%, 150V, Thick Film","Vishay","CRCW08055K10FKEA","Panasonic","ERJ6ENF5101V",""
-"R1,R2","2","100K","Project_Footprints:R_0603_1608Metric","","Resistor 100K, 0603, 1%, 75V, Thick Film, 100ppm","Panasonic","ERJ-3EKF1003V","Vishay","CRCW0603100KFKEA",""
-"L3","1","15uH","Project_Footprints:L_0603_1608Metric","","RF inductor, unshielded, 2%, 0.7A, 130mOhms","Murata Electronics","LQW18AS10NG0ZD","EPCOS / TDK","B82496C3100J",""
-"L2","1","10uH","Project_Footprints:L_0603_1608Metric","","RF inductor, unshielded, 2%, 0.7A, 130mOhms","Murata Electronics","LQW18AS10NG0ZD","EPCOS / TDK","B82496C3100J",""
-"L1","1","L_jumper_0R","Project_Footprints:L_0805_2012Metric","","Inductor, jumper 0R","Vishay","CRCW08050000Z0EA","Yageo","RC0805FR-070RL",""
-"J5","1","SMA_ST_SMD","Project_Footprints:SMA_ST_SMD","","coaxial connector SMA, straight, female, SMD, gold","Linx Technologies","CONSMA001-SMD-G","Molex","732511352",""
-"J4","1","Header_01x02_2.0mm JST PH","Project_Footprints:JST_S2B-PH-SM4-TB_LF__SN_","","Vertical Header, 2positions, 1.5mm pitch, shrouded, security lock, THT","JST","S2B-PH-SM4-TB","---","---",""
-"J2","1","USB_C_Receptacle_USB2.0_16P","Connector_USB:USB_C_Receptacle_GCT_USB4110","https://www.usb.org/sites/default/files/documents/usb_type-c.zip","USB 2.0-only 16P Type-C Receptacle connector","","USB4110-GF-A","","",""
-"J1,J3,J6","3","Conn_01x04_Pin","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","~","Generic connector, single row, 01x04, script generated","","","","",""
-"IC2","1","E22-900M22S","Project_Footprints:E22-900M22S","","","Ebyte","E22-900M22S","","",""
-"IC1","1","MAX17048G+T10","Library:SON50P200X200X80-9N-D","https://www.analog.com/MAX17048/datasheet","3A 1-Cell/2-Cell Fuel Gauge with ModelGauge","Analog Devices","MAX17048G+T10","","",""
-"H1,H2,H3,H4","4","MountingHole_Pad_M3","MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom","~","Mounting Hole with connection, Pad M3","","","","",""
-"D7","1","LED Green","Project_Footprints:LED_0805","","Light emitting diode Green 0805 2mA","Kingbright","APTD2012LCGCK","","",""
-"D6","1","LED Orange","Project_Footprints:LED_0805","","Light emitting diode Green 0805 2mA","Kingbright","APTD2012LCGCK","","",""
-"D5","1","VREG","Project_Footprints:LED_0805","https://www.kingbrightusa.com/images/catalog/SPEC/APTD2012LSURCK.pdf","Light emitting diode Red 0805 2mA","Kingbright","APTD2012LSURCK","","",""
-"D4","1","BATT PWR","Project_Footprints:LED_0805","https://www.kingbrightusa.com/images/catalog/SPEC/APTD2012LSURCK.pdf","Light emitting diode Red 0805 2mA","Kingbright","APTD2012LSURCK","","",""
-"D3","1","USB PWR","Project_Footprints:LED_0805","https://www.kingbrightusa.com/images/catalog/SPEC/APTD2012LSURCK.pdf","Light emitting diode Red 0805 2mA","Kingbright","APTD2012LSURCK","","",""
-"D2","1","LED Blue","Project_Footprints:LED_0805","","Light emitting diode Blue 0805 2mA","Kingbright","APTD2012LQBC/D","","",""
-"D1","1","LED Yellow","Project_Footprints:LED_0805","https://www.kingbrightusa.com/images/catalog/SPEC/APTD2012LSYCK.pdf","Light emitting diode Yellow 0805 2mA","Kingbright","APTD2012LSYCK","","",""
-"C24","1","100pF","Project_Footprints:C_0603_1608Metric","","100pF, 0603, ceramic capacitor, 25V dc, X7R, 5%","KYOCERA AVX","06033C101JAT4A","---","---",""
-"C23","1","C_NP","Project_Footprints:C_0603_1608Metric","","Capacitor NP, Not placed, 0603","---","---","---","---",""
-"C22","1","47nF","Project_Footprints:C_0603_1608Metric","","47nF, 0603, ceramic capacitor, 25V, X7R, 5%","KEMET","C0603X473J3RAC3316","---","---",""
-"C20,C21","2","1uF","Project_Footprints:C_0603_1608Metric","","1uF 0603, MLCC, 25V, X7R, 10%","Kemet","C0603C105K3RACTU","Kyocera AVX","06033C105KAT2A",""
-"C15,C16","2","C_NP_0805","Project_Footprints:C_0805_2012Metric","","Capacitor NP, Not placed, 0805","---","---","---","---",""
-"C12","1","100nF","Capacitor_SMD:C_0603_1608Metric","~","Unpolarized capacitor","","","","",""
-"C9,C25","2","8pF","Project_Footprints:C_0603_1608Metric","~","Unpolarized capacitor","KYOCERA","06033A8R0DAT2A","","",""
-"C8,C10,C26,C28,C29","5","100nF","Project_Footprints:C_0402_1005Metric","","100nF 0402, ceramic capacitor, 16V, X7R, 10%","AVX","0402YC104KAT2A","KEMET","C0402C104K4RACTU",""
-"C7","1","10uF","Project_Footprints:C_1210_3225Metric","","10uF, 1210, MLCC , 50V, X7R, 10%","TDK","C3225X7R1H106K250AC","Kyocera-AVX","KGM32LR71H106KU",""
-"C6,C17,C18","3","100nF","Project_Footprints:C_0805_2012Metric","","100nF 0805, ceramic capacitor, 100V, X7R, 10%","AVX","08051C104KAT2A","KEMET","C0805C104K1RACTU",""
-"C5,C14,C19","3","1uF","Project_Footprints:C_0805_2012Metric","","1uF 0805, ceramic capacitor, 25V, X7R, 10%","AVX","08053C105KAT2A","KEMET","C0805C105K3RACTU",""
-"C4","1","470pF","Project_Footprints:C_0805_2012Metric","","470pF 0805, ceramic capacitor, 100V, NP0/C0G, 10%","AVX","08051A471KAT2A","KEMET","C0805C471J1GACTU",""
-"C3,C11,C13,C27","4","100nF","Project_Footprints:C_0603_1608Metric","","100nF, 0603, ceramic capacitor, 25V, X5R, 10%","Kyocera AVX","06033D104KAT2A","---","---",""
-"C1,C2","2","10uF","Project_Footprints:C_0603_1608Metric","","10uF 0603, ceramic capacitor, 10V, X5R, 20%","AVX","0603ZD106MAT4A","KEMET","C0603C106M8PACTU",""
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"RST1";"SW_Push_1P1T_NO_CK_KMR2";1;"~";;;
+2;"J3,J7,J6,J1";"PinHeader_1x04_P2.54mm_Vertical";4;"Conn_01x04_Pin";;;
+3;"U4";"SOT-23-5";1;"MCP73831-2-OT";;;
+4;"D7";"LED_0805";1;"LED Green";;;
+5;"TP5";"TestPoint_Pad_D1.0mm";1;"3V3";;;
+6;"C12";"C_0603_1608Metric";1;"100nF";;;
+7;"C27,C11,C13,C3";"C_0603_1608Metric";4;"100nF";;;
+8;"C10,C8,C28,C26,C29";"C_0402_1005Metric";5;"100nF";;;
+9;"C5,C14,C19";"C_0805_2012Metric";3;"1uF";;;
+10;"D6";"LED_0805";1;"LED Orange";;;
+11;"R15,R14";"R_0402_1005Metric_Pad0.72x0.64mm_HandSolder";2;"4k7";;;
+12;"TP4";"TestPoint_Pad_D1.0mm";1;"V_SW";;;
+13;"D2";"LED_0805";1;"LED Blue";;;
+14;"U1";"SOT-583-8";1;"TPS2116DRLR";;;
+15;"C6,C18,C17";"C_0805_2012Metric";3;"100nF";;;
+16;"C21,C20";"C_0603_1608Metric";2;"1uF";;;
+17;"R10,R9";"R_0805_2012Metric";2;"1K5_0805";;;
+18;"R5,R20";"R_0805_2012Metric";2;"10K";;;
+19;"R13";"R_0603_1608Metric";1;"1K";;;
+20;"Y1";"Crystal_SMD_2016-4Pin_2.0x1.6mm";1;"Crystal";;;
+21;"R17";"R_0603_1608Metric";1;"0R_0603";;;
+22;"C1,C2";"C_0603_1608Metric";2;"10uF";;;
+23;"R2,R1";"R_0603_1608Metric";2;"100K";;;
+24;"U3";"SOT-23-6";1;"USBLC6-2SC6";;;
+25;"IC2";"E22-900M22S";1;"E22-900M22S";;;
+26;"R16,R11";"R_0805_2012Metric";2;"1K_0805";;;
+27;"U2";"SOT-23-5";1;"MIC5219-3.3YM5";;;
+28;"U6";"SSOP-20_3.9x8.7mm_P0.635mm";1;"FT231XS";;;
+29;"D3";"LED_0805";1;"USB PWR";;;
+30;"R12";"R_0603_1608Metric";1;"10K0_0603";;;
+31;"IC1";"SON50P200X200X80-9N-D";1;"MAX17048G+T10";;;
+32;"U5";"QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm_ThermalVias";1;"nRF52840-QFAA";;;
+33;"J2";"USB_C_Receptacle_GCT_USB4110";1;"USB_C_Receptacle_USB2.0_16P";;;
+34;"R8,R7";"R_0603_1608Metric";2;"270R_0603";;;
+35;"R18";"R_0603_1608Metric";1;"10K";;;
+36;"L5";"L_0402_1005Metric";1;"2.7nH";;;
+37;"C24";"C_0603_1608Metric";1;"100pF";;;
+38;"R3,R4";"R_0805_2012Metric";2;"5K1_0805";;;
+39;"L3";"L_0603_1608Metric";1;"15uH";;;
+40;"C25,C9";"C_0603_1608Metric";2;"8pF";;;
+41;"C23";"C_0603_1608Metric";1;"C_NP";;;
+42;"L2";"L_0603_1608Metric";1;"10uH";;;
+43;"D5";"LED_0805";1;"VREG";;;
+44;"L4";"L_0402_1005Metric";1;"3.3nH";;;
+45;"C22";"C_0603_1608Metric";1;"47nF";;;
+46;"C7";"C_1210_3225Metric";1;"10uF";;;
+47;"R19,R21";"R_0603_1608Metric";2;"27";;;
+48;"D4";"LED_0805";1;"BATT PWR";;;
+49;"C4";"C_0805_2012Metric";1;"470pF";;;
+50;"C30";"C_0402_1005Metric";1;"1.2pF";;;
+51;"J4";"JST_S2B-PH-SM4-TB_LF__SN_";1;"Header_01x02_2.0mm JST PH";;;
+52;"E1";"XDCR_2450AT18B100E";1;"2450AT18B100E";;;
+53;"D1";"LED_0805";1;"LED Yellow";;;
+54;"R6";"R_0603_1608Metric";1;"4k7";;;
