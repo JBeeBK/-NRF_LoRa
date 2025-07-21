@@ -1,7 +1,7 @@
 # NRF_LoRa
 
 PCB design for a Nordic nRF52840 (QFN48) with SX1262 LoRa module.  
-Designed as a low-power mesh node for experimentation and Meshtastic development.
+Designed as a low-power mesh node for experimentation and LoRaWan or Meshtastic development.
 
 ![Board Top](04_Output_Assembly/LoRa_Project.jpg)
 
