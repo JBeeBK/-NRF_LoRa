@@ -5983,12 +5983,6 @@
 		(uuid "540786c0-7cf4-4d96-b355-043fb1f327f8")
 	)
 	(junction
-		(at 208.28 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5667f2e9-2532-4da5-be1d-57de699cca72")
-	)
-	(junction
 		(at 80.01 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7069,16 +7063,6 @@
 			(type default)
 		)
 		(uuid "b95acb3e-fd85-4e5e-b88d-00e57caaeaca")
-	)
-	(wire
-		(pts
-			(xy 190.5 148.59) (xy 208.28 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9aea44d-df4a-4864-85f8-23b1848ad89c")
 	)
 	(wire
 		(pts
@@ -15378,98 +15362,6 @@
 			(project "LoRa_Project"
 				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/4927cd72-e16a-43de-8cdd-cc75baf4e465"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IBA_mechanical_parts:MountingHole_Pad_M3")
-		(at 187.96 148.59 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc14ad50-7b38-4a0a-a28c-be0e799627c5")
-		(property "Reference" "H1"
-			(at 181.61 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad_M3"
-			(at 183.515 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 179.07 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection, Pad M3"
-			(at 187.96 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 187.96 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 187.96 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 187.96 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1eabbe08-af9c-4eaa-8d57-4e65418d39e2")
-		)
-		(instances
-			(project ""
-				(path "/179424ee-5b20-4f30-b424-5750e26f83a1/4927cd72-e16a-43de-8cdd-cc75baf4e465"
-					(reference "H1")
 					(unit 1)
 				)
 			)
